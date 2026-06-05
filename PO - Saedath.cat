@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="bd2b-c57-2ddd-4b7c" name="[Antiquia] Saedath" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" revision="1" battleScribeVersion="2.03" type="catalogue">
+  <entryLinks>
+    <entryLink id="b1e3-e3b3-b544-419b" name="Troupe Master" hidden="false" collective="false" import="true" targetId="f0cf-4f35-42db-b967" type="selectionEntry"/>
+    <entryLink id="2152-8944-bc9c-4d28" name="Shadowseer" hidden="false" collective="false" import="true" targetId="b139-833d-4e60-bf19" type="selectionEntry"/>
+    <entryLink id="55e2-52cb-66c2-437a" name="Death Jester" hidden="false" collective="false" import="true" targetId="e26c-73c8-46d2-a456" type="selectionEntry"/>
+    <entryLink id="f960-11ac-0240-419a" name="Arebennian" hidden="false" collective="false" import="true" targetId="9e18-8453-4172-84ed" type="selectionEntry"/>
+    <entryLink id="c57d-59e0-5c4c-4a41" name="Troupe" hidden="false" collective="false" import="true" targetId="3d96-f4c2-4c4c-a467" type="selectionEntry"/>
+    <entryLink id="538a-55de-21a4-4557" name="Starweaver" hidden="false" collective="false" import="true" targetId="5698-f326-4032-b58d" type="selectionEntry"/>
+    <entryLink id="c11b-fe87-6214-400c" name="Skyweavers" hidden="false" collective="false" import="true" targetId="be40-55f4-4220-963c" type="selectionEntry"/>
+    <entryLink id="a099-4293-f0ac-4df5" name="Voidweaver" hidden="false" collective="false" import="true" targetId="c813-68bb-40e1-8053" type="selectionEntry"/>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry name="Troupe Master" type="unit" id="f0cf-4f35-42db-b967" page="114" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>

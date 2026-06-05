@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="faad-692f-723b-fbb4" name="[Antiquia] Asuryani" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" revision="1" battleScribeVersion="2.03" type="catalogue">
+  <entryLinks>
+    <entryLink id="0ff0-6b91-ca45-4ca5" name="Autarch" hidden="false" collective="false" import="true" targetId="082e-6f97-41e2-9a13" type="selectionEntry"/>
+    <entryLink id="9983-6594-6f7a-4b51" name="Aspect Exarchs" hidden="false" collective="false" import="true" targetId="ee1a-07fa-45ce-947c" type="selectionEntry"/>
+    <entryLink id="3c62-2dfc-9d73-4db5" name="Farseer" hidden="false" collective="false" import="true" targetId="d27e-b782-40c3-9f57" type="selectionEntry"/>
+    <entryLink id="7536-a0b4-4f57-4052" name="Wraith Guide" hidden="false" collective="false" import="true" targetId="4952-5d86-4bfc-bf65" type="selectionEntry"/>
+    <entryLink id="2dc5-2e88-1a74-4ffc" name="Eldrad Ulthran" hidden="false" collective="false" import="true" targetId="9007-5ead-4e48-9c5f" type="selectionEntry"/>
+    <entryLink id="d3a0-85fc-43dd-4ab4" name="Guardian Officer Cadre" hidden="false" collective="false" import="true" targetId="dec9-1989-4538-9d8b" type="selectionEntry"/>
+    <entryLink id="f052-d128-f900-42ad" name="Seer Council" hidden="false" collective="false" import="true" targetId="ed4b-f763-4c7c-b5ba" type="selectionEntry"/>
+    <entryLink id="6205-6701-39c3-4bcf" name="Bonesinger Conclave" hidden="false" collective="false" import="true" targetId="c9e7-1839-4058-907d" type="selectionEntry"/>
+    <entryLink id="de9e-9d5b-8279-4d8a" name="Fire Dragons" hidden="false" collective="false" import="true" targetId="3140-5af7-4454-b680" type="selectionEntry"/>
+    <entryLink id="491d-a8a8-485c-4b78" name="Striking Scorpions" hidden="false" collective="false" import="true" targetId="ae63-b800-4718-a0e8" type="selectionEntry"/>
+    <entryLink id="186f-30c9-12cd-4dfc" name="Howling Banshees" hidden="false" collective="false" import="true" targetId="49e3-d22f-4bdb-a003" type="selectionEntry"/>
+    <entryLink id="28b5-bf41-9148-4148" name="Wraithblades" hidden="false" collective="false" import="true" targetId="7333-3dd6-4e7f-bb51" type="selectionEntry"/>
+    <entryLink id="4f59-62a8-1d2f-42dd" name="Wraithguard" hidden="false" collective="false" import="true" targetId="3ac1-e5ed-43b2-b4d8" type="selectionEntry"/>
+    <entryLink id="8fe3-caf8-61ff-4108" name="War Walker Squadron" hidden="false" collective="false" import="true" targetId="86dc-cfbe-4d75-9e36" type="selectionEntry"/>
+    <entryLink id="c29d-2575-a142-474e" name="Guardian Defenders" hidden="false" collective="false" import="true" targetId="050e-8ab5-4abb-8615" type="selectionEntry"/>
+    <entryLink id="ecd6-b8e1-16f1-4576" name="Storm Guardians" hidden="false" collective="false" import="true" targetId="ea5d-22b9-4ce3-8ca0" type="selectionEntry"/>
+    <entryLink id="72b2-9dc1-c1e4-4e87" name="Windriders" hidden="false" collective="false" import="true" targetId="c07d-74e4-4b5d-8e25" type="selectionEntry"/>
+    <entryLink id="89c7-9194-9190-4725" name="Dire Avengers" hidden="false" collective="false" import="true" targetId="68c8-9047-42b8-a074" type="selectionEntry"/>
+    <entryLink id="3317-3506-3c64-4e13" name="Rangers" hidden="false" collective="false" import="true" targetId="ba05-34d9-4669-8dc7" type="selectionEntry"/>
+    <entryLink id="ae57-2f69-1b9e-482d" name="Wave Serpent" hidden="false" collective="false" import="true" targetId="c097-2ee7-4399-b876" type="selectionEntry"/>
+    <entryLink id="178c-e70e-ea6d-40d5" name="Shadow Spectres" hidden="false" collective="false" import="true" targetId="76bc-ff96-454f-9fd9" type="selectionEntry"/>
+    <entryLink id="56ca-de71-f36f-4bf2" name="Swooping Hawks" hidden="false" collective="false" import="true" targetId="8b86-7f9d-4b34-ae0e" type="selectionEntry"/>
+    <entryLink id="96ea-557a-4000-4f2f" name="Shining Spears" hidden="false" collective="false" import="true" targetId="381b-4d55-42cd-843d" type="selectionEntry"/>
+    <entryLink id="b145-2593-62df-4ee5" name="Warp Spiders" hidden="false" collective="false" import="true" targetId="2cf6-8e98-4cca-bd3d" type="selectionEntry"/>
+    <entryLink id="7728-3fed-3c2d-47e2" name="Shroud Runners" hidden="false" collective="false" import="true" targetId="2c92-0bb4-4344-9205" type="selectionEntry"/>
+    <entryLink id="9fc1-9a82-0fe2-4515" name="Vyper Squadron" hidden="false" collective="false" import="true" targetId="e6c2-0f8c-420f-ab7d" type="selectionEntry"/>
+    <entryLink id="4ab6-3033-64b8-4a63" name="Nightshade Interceptor Squadron" hidden="false" collective="false" import="true" targetId="048e-950c-4ea1-9f1d" type="selectionEntry"/>
+    <entryLink id="5efd-5e1e-71f6-4237" name="Nightwing Interceptor Squadron" hidden="false" collective="false" import="true" targetId="de08-f758-4fb0-8b2b" type="selectionEntry"/>
+    <entryLink id="a373-c9a6-e909-4b33" name="Phoenix Bomber Squadron" hidden="false" collective="false" import="true" targetId="33bd-0c50-4164-98c8" type="selectionEntry"/>
+    <entryLink id="700b-d606-0b90-4f48" name="Vaul’S Wrath Support Battery" hidden="false" collective="false" import="true" targetId="3cf4-0740-4ca0-bfe3" type="selectionEntry"/>
+    <entryLink id="7dc7-d684-ad2a-4499" name="Dark Reapers" hidden="false" collective="false" import="true" targetId="c209-eaae-48fe-9594" type="selectionEntry"/>
+    <entryLink id="6885-c9db-c1c1-417e" name="Falcon Squadron" hidden="false" collective="false" import="true" targetId="aabc-4947-4b27-bc32" type="selectionEntry"/>
+    <entryLink id="a2ca-6831-32b9-4866" name="Fire Prism Squadron" hidden="false" collective="false" import="true" targetId="1ee4-1f45-4ceb-ae54" type="selectionEntry"/>
+    <entryLink id="68fa-8c10-7543-4273" name="Night Spinner Squadron" hidden="false" collective="false" import="true" targetId="f5bb-719f-416b-863c" type="selectionEntry"/>
+    <entryLink id="8793-bd9b-316f-4ad5" name="Firestorm Squadron" hidden="false" collective="false" import="true" targetId="c07a-61d5-4b27-92db" type="selectionEntry"/>
+    <entryLink id="30ce-fe92-31ff-4bfd" name="Wraithlord Conclave" hidden="false" collective="false" import="true" targetId="2562-7375-44f5-abe9" type="selectionEntry"/>
+    <entryLink id="9c4b-c137-3fc3-4981" name="Wraithseer" hidden="false" collective="false" import="true" targetId="88ae-ed67-44ed-8a2e" type="selectionEntry"/>
+    <entryLink id="7cac-d467-b28f-453e" name="Wraithknight" hidden="false" collective="false" import="true" targetId="250c-6721-4d92-81ed" type="selectionEntry"/>
+    <entryLink id="9a42-1286-005c-412b" name="Skathach Wraithknight" hidden="false" collective="false" import="true" targetId="e80a-7edf-434c-a146" type="selectionEntry"/>
+    <entryLink id="53d7-26e7-a9fb-4ae1" name="Vampire Hunter" hidden="false" collective="false" import="true" targetId="455a-ad9c-419e-8d3a" type="selectionEntry"/>
+    <entryLink id="f864-9cd8-c911-427f" name="Vampire Raider" hidden="false" collective="false" import="true" targetId="ad19-d09c-475c-9668" type="selectionEntry"/>
+    <entryLink id="09f1-76a0-f331-44f8" name="Phantom Titan" hidden="false" collective="false" import="true" targetId="d9cc-ad45-4095-bba8" type="selectionEntry"/>
+    <entryLink id="67a0-cbb1-e30a-45f4" name="Revenant Titan" hidden="false" collective="false" import="true" targetId="c05c-a32e-448f-8e51" type="selectionEntry"/>
+    <entryLink id="af26-d53a-deea-4c66" name="Scorpion" hidden="false" collective="false" import="true" targetId="6f09-ee0b-496c-ac8a" type="selectionEntry"/>
+    <entryLink id="5255-99bc-7f07-47d6" name="Cobra" hidden="false" collective="false" import="true" targetId="ab35-0c30-4117-a4c6" type="selectionEntry"/>
+    <entryLink id="52e1-4f08-9307-4f7c" name="Lynx" hidden="false" collective="false" import="true" targetId="f52a-95f7-491e-8687" type="selectionEntry"/>
+    <entryLink id="3a33-ff02-3966-47b1" name="Avatar Of Khaine" hidden="false" collective="false" import="true" targetId="d57e-c1b7-40c5-bfa5" type="selectionEntry"/>
+    <entryLink id="2525-6f4b-063b-4db5" name="Asurmen" hidden="false" collective="false" import="true" targetId="8277-f14b-4518-a299" type="selectionEntry"/>
+    <entryLink id="5420-160a-8aec-4c15" name="Baharroth" hidden="false" collective="false" import="true" targetId="7964-447c-4193-8be4" type="selectionEntry"/>
+    <entryLink id="25b0-403d-11a2-444b" name="Drastanta" hidden="false" collective="false" import="true" targetId="4eaf-2579-49cb-94f2" type="selectionEntry"/>
+    <entryLink id="8b4b-eaa4-2e95-4f4c" name="Fuegan" hidden="false" collective="false" import="true" targetId="56df-208a-47bb-838f" type="selectionEntry"/>
+    <entryLink id="3bca-48ef-9a13-4574" name="Irillyth" hidden="false" collective="false" import="true" targetId="759e-52c7-4a25-883f" type="selectionEntry"/>
+    <entryLink id="d46b-91f7-01b2-43d9" name="Karandras" hidden="false" collective="false" import="true" targetId="3e09-2df2-4b12-8bf1" type="selectionEntry"/>
+    <entryLink id="f720-c6ca-e138-4e0a" name="Maugan Ra" hidden="false" collective="false" import="true" targetId="0c97-c091-4c31-b74e" type="selectionEntry"/>
+    <entryLink id="4231-b1cf-dd69-48c7" name="Jain Zar" hidden="false" collective="false" import="true" targetId="1f68-59c6-4d76-b682" type="selectionEntry"/>
+    <entryLink id="e22b-8253-7908-4ed9" name="Webway Gate" hidden="false" collective="false" import="true" targetId="b996-22c3-4113-adfe" type="selectionEntry"/>
+    <entryLink id="6e6e-8ff7-415b-47a3" name="Holo-Field Defence Line" hidden="false" collective="false" import="true" targetId="bb11-e4d2-4b1b-b08c" type="selectionEntry"/>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry name="Autarch" type="unit" id="082e-6f97-41e2-9a13" page="28" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
