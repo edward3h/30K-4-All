@@ -1,5 +1,216 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="bd2b-c57-2ddd-4b7c" name="[Antiquia] Saedath" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2004" revision="2" battleScribeVersion="2.03" type="catalogue">
+  <forceEntries>
+    <forceEntry id="01e3-c397-15f3-48c3" name="Saedathii: The Trials of Khaine" hidden="false">
+      <categoryLinks>
+        <categoryLink id="b7b4-6354-f75e-449d" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a39-4a79-1f58-41bc" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3498-b64f-35a6-4204" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="134a-b225-425f-4583" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
+        <categoryLink id="33be-ecb8-78f6-4e31" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c53a-420b-51b9-42aa" type="min"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ecc-84d1-2c0b-4958" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="9d79-3791-7d5b-4fb4" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1f31-cc72-e51f-4ca7" type="min"/>
+            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="72e6-e8d0-287d-43d4" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8fc4-1fd5-d4c1-4d7e" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5262-6a3b-ecf9-4242" type="min"/>
+            <constraint field="selections" scope="force" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7fc9-1a31-c3c5-4447" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="63e1-8f7c-f989-4664" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="295b-d2a3-ea4c-477a" type="min"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="85a4-91fc-bdfa-4cd2" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5559-efd1-9ef2-43f8" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="104e-dc1f-98b0-4488" type="min"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1b87-1d81-92e3-41d6" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="forces" scope="roster" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0986-0211-2e0d-4cf2"/>
+      </constraints>
+    </forceEntry>
+    <forceEntry id="323f-bd2d-cad4-49a6" name="Saedathii: The Heroes Path" hidden="false">
+      <categoryLinks>
+        <categoryLink id="f00b-2376-fb6a-4b24" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7340-e7f8-95d2-4b29" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c5f6-eff0-6ee2-4a7b" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="9a16-ff53-c8d8-4fc8" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
+        <categoryLink id="2938-cc71-889e-4545" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f141-1b49-7438-41d0" type="min"/>
+            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1e1b-1c21-1e93-4f74" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f9a6-c0ef-0e4f-4583" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ecca-63d5-149f-45cb" type="min"/>
+            <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8dd6-94f2-81ce-4210" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3ac0-3dd3-71c8-4714" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f3f4-b5a2-0185-4b69" type="min"/>
+            <constraint field="selections" scope="force" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7e5c-df6f-f009-49a3" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="forces" scope="roster" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="401f-e163-7910-412e"/>
+      </constraints>
+    </forceEntry>
+    <forceEntry id="f982-4529-a0db-46bd" name="Saedathii: Faolchu's Blade" hidden="false">
+      <categoryLinks>
+        <categoryLink id="839e-2d41-793e-4d8e" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="27f5-2633-6888-4750" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c40f-6a45-4b78-4dde" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="2a66-b21e-3c4d-42e1" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
+        <categoryLink id="90fb-efc7-d6bb-444b" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e35e-1825-885e-4264" type="min"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="55a4-9012-7cd6-4f7a" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f28b-c9c5-89d2-4a2c" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1fb4-f0e6-0141-4e82" type="min"/>
+            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="98c5-5415-f78a-4455" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="855a-701e-c678-411a" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b0ab-6440-5a65-4306" type="min"/>
+            <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c219-b3fc-f9fa-4acc" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="0570-d507-e0ca-4e95" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7761-9641-63d0-4409" type="min"/>
+            <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d715-76ee-6f08-4b4a" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="133b-1643-cd12-4db1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed55-2121-4c8d-4f32" type="min"/>
+            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f420-1e0e-6ce7-438a" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="forces" scope="roster" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc08-dc66-8451-48dd"/>
+      </constraints>
+    </forceEntry>
+    <forceEntry id="5a44-a169-a013-418b" name="Saedathii: Cegorach's Jest" hidden="false">
+      <categoryLinks>
+        <categoryLink id="c8b6-067b-3f8c-403a" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="78cf-9148-9cf7-476a" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a39-5907-0c40-4fb7" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f8a1-317a-cea2-4e0c" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
+        <categoryLink id="18c2-ca00-26fa-4d76" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a82-3fd6-4508-4e95" type="min"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c27-891f-2bd3-4d89" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="75ce-fd8f-3af9-40cb" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="70e1-fad0-8377-4e6c" type="min"/>
+            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9d9-ec30-92fe-417a" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="ed90-c376-fadf-49d7" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a19f-0003-d322-42bf" type="min"/>
+            <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c7f6-6320-6c01-4c83" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="50e6-8b76-150c-40f5" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4200-99b0-ad7a-496b" type="min"/>
+            <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e51c-1e0b-11f5-4928" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="1066-0d6e-6ec0-447c" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9b00-59eb-40d4-4654" type="min"/>
+            <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d6cf-059b-9e29-4d6e" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="forces" scope="roster" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59b2-f369-748e-476f"/>
+      </constraints>
+    </forceEntry>
+    <forceEntry id="187e-0543-ba0f-4073" name="Saedathii: Cegorach's Lament" hidden="false">
+      <categoryLinks>
+        <categoryLink id="cbcb-71ee-0266-47b6" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb33-976c-3a6f-48dd" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf3e-4655-7313-49e5" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="532a-08d6-f416-4db4" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
+        <categoryLink id="4bcb-c29b-474c-4825" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b28c-cf1b-30ee-43e3" type="min"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1f62-32e3-a70d-478a" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f22f-c2da-5488-4cc3" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c18-95b8-e9ac-4572" type="min"/>
+            <constraint field="selections" scope="force" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="696d-1bff-738d-4f64" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="71fc-4d87-7514-4fdf" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ebc-abd3-d95a-4071" type="min"/>
+            <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="216a-8f95-44c1-44f1" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="07c7-5904-33c6-4065" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bd82-fa9a-9584-4e65" type="min"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="601c-55e8-3b33-413f" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="efea-18a5-a04e-43a8" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8fad-c7bd-26e9-436e" type="min"/>
+            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cdfc-2c2a-8df7-4694" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="forces" scope="roster" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d503-f621-c19d-4319"/>
+      </constraints>
+    </forceEntry>
+  </forceEntries>
+
   <sharedSelectionEntries>
     <selectionEntry name="Troupe Master" type="unit" id="f0cf-4f35-42db-b967" page="114" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -54,216 +265,6 @@
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="The Troupe Master may exchange their Shuriken Pistol for one of the following:" id="57aa-dbb8-460a-807b">
-              <forceEntries>
-    <forceEntry id="a1de-a94d-a5d9-40f6" name="Saedathii: The Trials of Khaine" hidden="false">
-      <categoryLinks>
-        <categoryLink id="e095-4d9d-001f-4db1" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b0bf-f1b3-866b-48eb" type="min"/>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="deb1-bd09-4128-453d" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="e6b2-0865-47cf-418e" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
-        <categoryLink id="72c5-52af-15ff-461a" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ca58-dae3-0c00-432a" type="min"/>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="988a-e6d0-ccd5-4c09" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="a217-2d4b-e730-4d4d" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4bb5-b667-bc3d-42ce" type="min"/>
-            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="15d7-ccc2-7022-4ae0" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="ca59-9490-f03b-4a88" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5f46-5e32-6643-45d6" type="min"/>
-            <constraint field="selections" scope="force" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="93a3-4e69-32db-42e9" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="88b0-e290-5b38-40b0" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6352-2875-faf0-4636" type="min"/>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e77a-5269-14e0-4413" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="1424-c79f-b1fb-4330" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="220b-c4e5-4b85-4e46" type="min"/>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8d6-ec49-7292-428a" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="forces" scope="roster" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="793f-951b-36bf-4533"/>
-      </constraints>
-    </forceEntry>
-    <forceEntry id="10c5-3c5e-20e1-4c9b" name="Saedathii: The Heroes Path" hidden="false">
-      <categoryLinks>
-        <categoryLink id="5449-6b84-9d8c-4894" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f407-5842-df30-4505" type="min"/>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f8ff-d52e-c620-4d34" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="6dda-5ae4-1c81-46df" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
-        <categoryLink id="594f-9928-bdb4-4065" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f932-43dc-8709-41d8" type="min"/>
-            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ea61-4017-0d61-4a82" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8ce3-5072-d80f-4180" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ec89-5219-dcd9-4256" type="min"/>
-            <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="604e-bed8-f58a-4c1e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="90ae-eda4-3765-419b" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5286-04fd-3835-4f2d" type="min"/>
-            <constraint field="selections" scope="force" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3592-f113-dc3a-4060" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="forces" scope="roster" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0570-c149-bc0f-463e"/>
-      </constraints>
-    </forceEntry>
-    <forceEntry id="c3b4-543b-eeca-4f4c" name="Saedathii: Faolchu's Blade" hidden="false">
-      <categoryLinks>
-        <categoryLink id="23a6-704a-c83e-4bec" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f715-debe-a5b5-4220" type="min"/>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1ba-7a78-cfcf-4fb6" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8163-c153-3d18-41db" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
-        <categoryLink id="a1c4-78d3-8a16-46ed" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e69f-e0bd-7c2e-4353" type="min"/>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a84-5f7d-4ac6-45a4" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="c9d9-fbad-1ab3-456b" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5db3-ad47-e5a3-4c54" type="min"/>
-            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b7a6-df8a-bcb2-400f" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="c2e6-7fee-7d85-4c38" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ac4e-412d-8d41-49dd" type="min"/>
-            <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ad5-9e27-2d68-41e8" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="46eb-a24a-fea7-486d" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6272-3a9f-8e8c-49c0" type="min"/>
-            <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="54b6-bd72-bcd3-4981" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="ff2a-6c4f-dac3-45c8" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3166-d4bf-b017-427b" type="min"/>
-            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="df2f-03b8-f3ca-4362" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="forces" scope="roster" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="985b-00ba-4ebf-4c63"/>
-      </constraints>
-    </forceEntry>
-    <forceEntry id="512c-b0af-c08e-4591" name="Saedathii: Cegorach's Jest" hidden="false">
-      <categoryLinks>
-        <categoryLink id="962a-065e-c547-4559" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de21-8cf6-6516-4d0a" type="min"/>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="861c-e5de-02e2-4f80" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="dded-7bed-5479-477a" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
-        <categoryLink id="77ec-9f1b-e5dc-4be4" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="03be-b86c-5248-47fd" type="min"/>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ae0f-2ba3-2049-4c7f" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d9ef-2fb6-13a1-4b92" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5af0-f009-1e4e-4d86" type="min"/>
-            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="412a-9867-1599-4bff" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="286a-dbf5-8fe7-4651" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f403-5257-8384-428a" type="min"/>
-            <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d98b-1a46-b657-420b" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="0a03-37e6-c2ee-41c2" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7fbb-082b-58e0-4db6" type="min"/>
-            <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d470-bfb0-faec-4747" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="4d8f-733a-d52a-41cb" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="036a-2920-2290-4dd3" type="min"/>
-            <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c1dd-be51-d34a-4ac3" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="forces" scope="roster" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a21-c011-27b2-4560"/>
-      </constraints>
-    </forceEntry>
-    <forceEntry id="8243-d264-c38c-4942" name="Saedathii: Cegorach's Lament" hidden="false">
-      <categoryLinks>
-        <categoryLink id="2877-f9eb-a77c-4894" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de09-0a9a-771b-45ee" type="min"/>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b462-3983-612a-47a8" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="2673-498d-10c8-4101" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
-        <categoryLink id="c4ed-36d0-0ea2-427f" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="00cc-b6da-1751-4ff4" type="min"/>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c65d-2e49-2727-4dcf" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="5c6f-e7e0-51f1-4be9" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e89a-c0f2-5f86-4566" type="min"/>
-            <constraint field="selections" scope="force" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d7ab-2d35-cfe7-462e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="17fc-d133-0074-4375" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b9b4-bc28-3088-4e4f" type="min"/>
-            <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9950-6e60-94f6-4659" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="29c5-3ec8-32c5-4218" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="619b-6955-db32-4919" type="min"/>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="208b-d5b9-815b-4626" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="66ef-d66f-a5fe-4590" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d5b-ed09-1e9c-4a17" type="min"/>
-            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9cff-1951-2130-4eb1" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="forces" scope="roster" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9890-59aa-57d5-48c2"/>
-      </constraints>
-    </forceEntry>
-  </forceEntries>
   <entryLinks>
                 <entryLink name="Shuriken Pistol" hidden="false" type="selectionEntry" targetId="4608-8ef9-46c8-b15b" id="6cd4-12b3-4315-8bf2">
                   <constraints>
