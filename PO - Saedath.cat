@@ -266,6 +266,14 @@
           <selectionEntryGroups>
             <selectionEntryGroup name="The Troupe Master may exchange their Shuriken Pistol for one of the following:" id="57aa-dbb8-460a-807b">
   <entryLinks>
+    <entryLink id="52d0-8f61-bd02-4219" name="Troupe Master" hidden="false" collective="false" import="true" targetId="f0cf-4f35-42db-b967" type="selectionEntry"/>
+    <entryLink id="5c36-c60c-f828-42d1" name="Shadowseer" hidden="false" collective="false" import="true" targetId="b139-833d-4e60-bf19" type="selectionEntry"/>
+    <entryLink id="b7d3-2961-e69a-4ed5" name="Death Jester" hidden="false" collective="false" import="true" targetId="e26c-73c8-46d2-a456" type="selectionEntry"/>
+    <entryLink id="6de6-aad6-d3dc-429b" name="Arebennian" hidden="false" collective="false" import="true" targetId="9e18-8453-4172-84ed" type="selectionEntry"/>
+    <entryLink id="9cc4-f149-8cb4-4ec9" name="Troupe" hidden="false" collective="false" import="true" targetId="3d96-f4c2-4c4c-a467" type="selectionEntry"/>
+    <entryLink id="debe-c3e1-dd7d-4e14" name="Starweaver" hidden="false" collective="false" import="true" targetId="5698-f326-4032-b58d" type="selectionEntry"/>
+    <entryLink id="621a-5d69-d1e1-43ee" name="Skyweavers" hidden="false" collective="false" import="true" targetId="be40-55f4-4220-963c" type="selectionEntry"/>
+    <entryLink id="c1f9-d10b-cb21-472f" name="Voidweaver" hidden="false" collective="false" import="true" targetId="c813-68bb-40e1-8053" type="selectionEntry"/>
                 <entryLink name="Shuriken Pistol" hidden="false" type="selectionEntry" targetId="4608-8ef9-46c8-b15b" id="6cd4-12b3-4315-8bf2">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a237-51d0-47e1-b4d7"/>
