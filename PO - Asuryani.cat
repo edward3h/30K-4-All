@@ -203,9 +203,8 @@
           </modifiers>
         </infoLink>
         <infoLink name="Path of Command" hidden="false" type="rule" targetId="727d-7b8b-4709-a8d9" id="a15e-c13f-49ca-bc05"/>
+        <infoLink name="Independent Character" hidden="false" type="rule" targetId="c57d-4820-458a-7ab5" id="c4d5-e6f7-a8b9-c0d1"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character</comment>
     </selectionEntry>
     <selectionEntry name="Aspect Exarchs" type="unit" id="ee1a-07fa-45ce-947c" page="29" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -324,31 +323,28 @@ This unit has an extra special option not yet handled.</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e830-8269-44a3-b189"/>
               </constraints>
             </entryLink>
-            <entryLink name="Skyrunner Jetbike" hidden="false" type="selectionEntry" targetId="ea04-9ea2-4a06-8c88" id="f4c0-3464-465d-b9fe">
+            <entryLink name="Witchblade" hidden="false" type="selectionEntry" targetId="d3ac-8003-440e-a142" id="a1b2-c3d4-e5f6-a7b8">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="11b1-c462-4756-a44e"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2617-5de5-4990-baba"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b8c9-d0e1-f2a3-b4c5"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5d6-e7f8-a9b0-c1d2"/>
               </constraints>
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="A Farseer may be upgraded to a:" id="486d-66db-47d1-b5dd">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b250-9876-4734-a004"/>
-              </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Farseer Skyrunner
-	 Checked under Farseer Skyrunner</comment>
-            </selectionEntryGroup>
             <selectionEntryGroup name="A Farseer may exchange their Witch Weapon for the following:" id="4b41-8c3b-4ac5-a54b">
+              <entryLinks>
+                <entryLink name="Singing Spear (Ranged)" hidden="false" type="selectionEntry" targetId="8247-ab23-4115-bdee" id="d2e3-f4a5-b6c7-d8e9">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9f0-a1b2-c3d4-e5f6"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8aac-89c9-45b1-8ff2"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Witch Weapon
-	 Checked under Witch Weapon
-Could not find wargear Singing Spear
-	 Checked under Singing Spear</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -357,10 +353,6 @@ Could not find wargear Singing Spear
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="1c46-8bf2-4c03-8a5b" name="Character" primary="false"/>
             <categoryLink targetId="6e0c-29ba-a445-8321" id="5ed3-eba4-4817-91dc" name="Psyker" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in A Farseer may be upgraded to a:
-Could not find wargear in A Farseer may exchange their Witch Weapon for the following:
-Could not find wargear in A Farseer may exchange their Witch Weapon for the following:</comment>
         </selectionEntry>
         <selectionEntry type="model" name="Farseer Skyrunner" id="b76a-8146-4264-bda5" page="30" publicationId="a368-64f0-10c7-c49d">
           <profiles>
@@ -405,17 +397,39 @@ Could not find wargear in A Farseer may exchange their Witch Weapon for the foll
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8af8-6e2e-48d2-9dd6"/>
               </constraints>
             </entryLink>
+            <entryLink name="Witchblade" hidden="false" type="selectionEntry" targetId="d3ac-8003-440e-a142" id="f7a8-b9c0-d1e2-f3a4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a4b5-c6d7-e8f9-a0b1"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1c2-d3e4-f5a6-b7c8"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="A Farseer Skyrunner may exchange their Witch Weapon for the following:" id="c8d9-e0f1-a2b3-c4d5">
+              <entryLinks>
+                <entryLink name="Singing Spear (Ranged)" hidden="false" type="selectionEntry" targetId="8247-ab23-4115-bdee" id="d5e6-f7a8-b9c0-d1e2">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2f3-a4b5-c6d7-e8f9"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f9a0-b1c2-d3e4-f5a6"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="88bc-c291-44f8-8798" id="d125-f478-4326-bdac" name="Asuryani" primary="false"/>
             <categoryLink targetId="4303-1348-cce4-9501" id="eccc-372c-4921-ae9f" name="Antigrav" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="a892-8dcd-4442-8d86" name="Character" primary="false"/>
             <categoryLink targetId="6e0c-29ba-a445-8321" id="eb0d-365a-4d0d-a6a0" name="Psyker" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Witch Weapon
-	 Checked under Witch Weapon
-Could not find type or subtype &apos;Cavalry&apos;</comment>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -432,10 +446,13 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
             <modifier type="set" field="name" value="Psychic Mastery (2)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Independent Character" hidden="false" type="rule" targetId="c57d-4820-458a-7ab5" id="a6b7-c8d9-e0f1-a2b3"/>
+        <infoLink name="Adamantium Will (X+)" hidden="false" type="rule" targetId="4380-44a5-f01a-d964" id="b3c4-d5e6-f7a8-b9c0">
+          <modifiers>
+            <modifier type="set" field="name" value="Adamantium Will (3+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character
-Could not find rule: Adamantium Will (3+)</comment>
     </selectionEntry>
     <selectionEntry name="Wraith Guide" type="unit" id="4952-5d86-4bfc-bf65" page="31" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -493,6 +510,12 @@ Could not find rule: Adamantium Will (3+)</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebe2-90c0-43bc-aa2a"/>
               </constraints>
             </entryLink>
+            <entryLink name="Witchblade" hidden="false" type="selectionEntry" targetId="d3ac-8003-440e-a142" id="c0d1-e2f3-a4b5-c6d7">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d7e8-f9a0-b1c2-d3e4"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4f5-a6b7-c8d9-e0f1"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="7dad-6247-45ce-87ba" name="Infantry" primary="false"/>
@@ -500,9 +523,6 @@ Could not find rule: Adamantium Will (3+)</comment>
             <categoryLink targetId="6e0c-29ba-a445-8321" id="e11c-96dd-425b-ae19" name="Psyker" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="ef85-0f5c-4931-b795" name="Character" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Witch Weapon
-	 Checked under Witch Weapon</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -517,9 +537,8 @@ Could not find wargear Witch Weapon
             <modifier type="set" field="name" value="Psychic Mastery (2)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Independent Character" hidden="false" type="rule" targetId="c57d-4820-458a-7ab5" id="f1a2-b3c4-d5e6-f7a8"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character</comment>
     </selectionEntry>
     <selectionEntry name="Eldrad Ulthran" type="unit" id="9007-5ead-4e48-9c5f" page="32" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -539,7 +558,7 @@ Could not find rule: Independent Character</comment>
                 <characteristic typeId="74ae-c840-0036-d244" name="BS">5</characteristic>
                 <characteristic typeId="e478-41d4-a092-48a8" name="S">3</characteristic>
                 <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">3</characteristic>
-                <characteristic typeId="57ee-1126-32a9-5672" name="W">3</characteristic>
+                <characteristic typeId="57ee-1126-32a9-5672" name="W">5</characteristic>
                 <characteristic typeId="62d3-22d7-2d49-52dc" name="I">5</characteristic>
                 <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">3</characteristic>
                 <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">10</characteristic>
@@ -559,6 +578,12 @@ Could not find rule: Independent Character</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d29a-937d-40c5-8df3"/>
               </constraints>
             </entryLink>
+            <entryLink name="Armour of the Last Runes" hidden="false" type="selectionEntry" targetId="5f1a-9372-4c8e-b014" id="a8b9-c0d1-e2f3-a4b5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b5c6-d7e8-f9a0-b1c2"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2d3-e4f5-a6b7-c8d9"/>
+              </constraints>
+            </entryLink>
             <entryLink name="Witchblade" hidden="false" type="selectionEntry" targetId="d3ac-8003-440e-a142" id="d9f3-39ce-46ec-813c">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c4cd-8e6e-48c6-babb"/>
@@ -571,6 +596,12 @@ Could not find rule: Independent Character</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6c1-78d4-48ec-bb20"/>
               </constraints>
             </entryLink>
+            <entryLink name="Staff of Ulthamar" hidden="false" type="selectionEntry" targetId="2c3d-7e6f-4a91-c5b8" id="d9e0-f1a2-b3c4-d5e6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e6f7-a8b9-c0d1-e2f3"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3a4-b5c6-d7e8-f9a0"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="ba7a-4020-454f-ad09" name="Infantry" primary="false"/>
@@ -579,11 +610,6 @@ Could not find rule: Independent Character</comment>
             <categoryLink targetId="6e0c-29ba-a445-8321" id="3ab2-f613-4f1d-9cd5" name="Psyker" primary="false"/>
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="7431-bf7c-4ba6-8be7" name="Unique" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Armour of the Last Runes
-	 Checked under Armour of the Last Runes
-Could not find wargear Staff of Ulthamar
-	 Checked under Staff of Ulthamar</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -607,10 +633,13 @@ Could not find wargear Staff of Ulthamar
             <modifier type="set" field="name" value="Psychic Mastery (3)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Independent Character" hidden="false" type="rule" targetId="c57d-4820-458a-7ab5" id="a0b1-c2d3-e4f5-a6b7"/>
+        <infoLink name="Adamantium Will (X+)" hidden="false" type="rule" targetId="4380-44a5-f01a-d964" id="b7c8-d9e0-f1a2-b3c4">
+          <modifiers>
+            <modifier type="set" field="name" value="Adamantium Will (2+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character
-Could not find rule: Adamantium Will (2+)</comment>
     </selectionEntry>
     <selectionEntry name="Guardian Officer Cadre" type="unit" id="dec9-1989-4538-9d8b" page="36" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -658,14 +687,6 @@ Could not find rule: Adamantium Will (2+)</comment>
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Any Guardian Officer may be upgraded to a:" id="e13e-deaa-4b3d-9f10">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dccf-e2ce-4d55-887a"/>
-              </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Skyrunner Officer
-	 Checked under Skyrunner Officer</comment>
-            </selectionEntryGroup>
             <selectionEntryGroup name="Any Guardian Officer may take one of the following:" id="8b93-1a63-4f7d-9a3e">
               <entryLinks>
                 <entryLink name="Shuriken Catapult" hidden="false" type="selectionEntry" targetId="5c7c-5ef5-4472-960f" id="44fa-42e9-43bb-9821">
@@ -761,8 +782,6 @@ Could not find wargear Skyrunner Officer
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any Guardian Officer may be upgraded to a:</comment>
         </selectionEntry>
         <selectionEntry type="model" name="Skyrunner Officer" id="678e-5fdc-4fea-aca7" page="36" publicationId="a368-64f0-10c7-c49d">
           <profiles>
@@ -928,23 +947,28 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06e3-808e-4b25-ab30"/>
               </constraints>
             </entryLink>
-            <entryLink name="Skyrunner Jetbike" hidden="false" type="selectionEntry" targetId="ea04-9ea2-4a06-8c88" id="c677-7fce-49c7-9eac">
+            <entryLink name="Witchblade" hidden="false" type="selectionEntry" targetId="d3ac-8003-440e-a142" id="a9b0-c1d2-e3f4-a5b6">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c804-7579-4841-a763"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87f9-c4e3-4c6b-a23a"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b6c7-d8e9-f0a1-b2c3"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3d4-e5f6-a7b8-c9d0"/>
               </constraints>
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any Warlock may exchange their Witch Weapon for a:" id="f916-d311-4f4f-9fb9">
+              <entryLinks>
+                <entryLink name="Singing Spear (Ranged)" hidden="false" type="selectionEntry" targetId="8247-ab23-4115-bdee" id="d0e1-f2a3-b4c5-d6e7">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e7f8-a9b0-c1d2-e3f4"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46cc-c300-4a43-83a5"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Witch Weapon
-	 Checked under Witch Weapon
-Could not find wargear Singing Spear
-	 Checked under Singing Spear</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -955,9 +979,6 @@ Could not find wargear Singing Spear
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any Warlock may exchange their Witch Weapon for a:
-Could not find wargear in Any Warlock may exchange their Witch Weapon for a:</comment>
         </selectionEntry>
         <selectionEntry type="model" name="Warlock Skyrunner" id="4387-a0c6-4bf8-aca5" page="37" publicationId="a368-64f0-10c7-c49d">
           <profiles>
@@ -1002,27 +1023,21 @@ Could not find wargear in Any Warlock may exchange their Witch Weapon for a:</co
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3364-889e-4fe6-8232"/>
               </constraints>
             </entryLink>
+            <entryLink name="Witchblade" hidden="false" type="selectionEntry" targetId="d3ac-8003-440e-a142" id="f4a5-b6c7-d8e9-f0a1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a1b2-c3d4-e5f6-a7b8"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b8c9-d0e1-f2a3-b4c5"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="88bc-c291-44f8-8798" id="9ac1-8d8e-460e-8235" name="Asuryani" primary="false"/>
             <categoryLink targetId="4303-1348-cce4-9501" id="bd27-c019-4ebb-a277" name="Antigrav" primary="false"/>
             <categoryLink targetId="6e0c-29ba-a445-8321" id="a0e3-304d-4655-821e" name="Psyker" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Witch Weapon
-	 Checked under Witch Weapon
-Could not find type or subtype &apos;Cavalry&apos;</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="The unit may have all models in it upgraded to (the whole unit must be so upgraded):" id="f673-5d4e-46bb-b978">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4aea-469d-472e-bb66"/>
-          </constraints>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Warlock Skyrunners
-	 Checked under Warlock Skyrunners</comment>
-        </selectionEntryGroup>
         <selectionEntryGroup name="One model in the unit may take a:" id="40ee-4a42-4f99-a86a">
           <entryLinks>
             <entryLink name="Craftworld Standard" hidden="false" type="selectionEntry" targetId="7217-515a-4e3e-94c6" id="864a-4fee-47c5-928b">
@@ -1066,8 +1081,6 @@ Could not find wargear Warlock Skyrunners
         <infoLink name="The Runes of War" hidden="false" type="rule" targetId="6275-068b-4a39-95da" id="d859-0c42-4d7f-85ae"/>
         <infoLink name="Chosen Warriors" hidden="false" type="rule" targetId="13d1-9270-6539-08ed" id="1c45-1fdb-40ae-87f5"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find wargear in The unit may have all models in it upgraded to (the whole unit must be so upgraded):</comment>
     </selectionEntry>
     <selectionEntry name="Bonesinger Conclave" type="unit" id="c9e7-1839-4058-907d" page="38" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -1183,6 +1196,12 @@ Could not find wargear in The unit may have all models in it upgraded to (the wh
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f32-1697-4eb5-8b51"/>
               </constraints>
             </entryLink>
+            <entryLink name="Melta Bombs" hidden="false" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6" id="fd10-mb20-4c8e-b3c5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fd10-mb21-4c8e-b3c6"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd10-mb22-4c8e-b3c7"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="e0a3-b99b-457b-9498" name="Infantry" primary="false"/>
@@ -1191,9 +1210,6 @@ Could not find wargear in The unit may have all models in it upgraded to (the wh
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="26"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Melta Bombs
-	 Checked under Melta Bombs</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1526,6 +1542,18 @@ Could not find wargear Melta Bombs
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a63-2bd6-4146-9c4c"/>
               </constraints>
             </entryLink>
+            <entryLink name="Ghostsword*" hidden="false" type="selectionEntry" targetId="33e9-5ea8-4696-8492" id="wb10-gs10-4c8e-b3d0">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="wb10-gs11-4c8e-b3d1"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="wb10-gs12-4c8e-b3d2"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Ghostsword*" hidden="false" type="selectionEntry" targetId="33e9-5ea8-4696-8492" id="wb20-gs20-4c8e-b3d3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="wb20-gs21-4c8e-b3d4"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="wb20-gs22-4c8e-b3d5"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any model may exchange either of their Ghostswords for one of the following options:" id="493c-b746-4662-a743">
@@ -1559,10 +1587,6 @@ Could not find wargear Melta Bombs
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Two Ghostswords
-	 Checked under Ghostsword
-Could not find type or subtype &apos;Automata&apos;</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -1739,13 +1763,18 @@ Could not find type or subtype &apos;Automata&apos;</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b912-a305-4f8d-bb2d"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)" hidden="false" type="selectionEntry" targetId="aml-bundle-4c8e-b600" id="ww10-aml-4c8e-b830">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ww10-aml-4c8e-b831"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b685-0de8-4c59-a151"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)
-	 Checked under Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="Any War Walker may take any of the following (all models in the unit must select the same upgrades):" id="abd8-8f58-4612-95df">
               <entryLinks>
@@ -1780,8 +1809,6 @@ Could not find wargear Aeldari Missile Launcher (with Sunburst, Starshot, and St
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="90"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any War Walker may exchange either of their Shuriken Cannons for one of the following:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -1854,9 +1881,6 @@ Could not find wargear in Any War Walker may exchange either of their Shuriken C
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0597-8b5b-40f4-88be"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Defender Platform
-	 Checked under Defender Platform</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -1867,8 +1891,6 @@ Could not find wargear Defender Platform
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in For every ten Guardian Defenders in the unit, you may add one of the following:</comment>
         </selectionEntry>
         <selectionEntry type="model" name="Defender Platform" id="062c-e496-4ccb-b530" page="48" publicationId="a368-64f0-10c7-c49d">
           <profiles>
@@ -1936,13 +1958,18 @@ Could not find wargear in For every ten Guardian Defenders in the unit, you may 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f729-e1a1-433f-a596"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)" hidden="false" type="selectionEntry" targetId="aml-bundle-4c8e-b600" id="gd10-aml-4c8e-b840">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gd10-aml-4c8e-b841"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5317-93df-4071-9056"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)
-	 Checked under Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -1950,8 +1977,6 @@ Could not find wargear Aeldari Missile Launcher (with Sunburst, Starshot, and St
             <categoryLink targetId="88bc-c291-44f8-8798" id="acaa-b173-4908-978e" name="Asuryani" primary="false"/>
             <categoryLink targetId="86d1-f085-4b72-a703" id="ad76-a9c4-469e-a85b" name="Grav-Platform" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any Defender Platform in the unit may exchange its Shuriken Cannon for one of the following:</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2044,23 +2069,27 @@ Could not find wargear in Any Defender Platform in the unit may exchange its Shu
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba62-4dcd-45b5-accb"/>
               </constraints>
             </entryLink>
+            <entryLink name="Chainsword" hidden="false" type="selectionEntry" targetId="dc89-d283-44d7-8763" id="sg10-cs-4c8e-b050">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="sg10-cs-4c8e-b051"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="sg10-cs-4c8e-b052"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Shuriken Pistol" hidden="false" type="selectionEntry" targetId="4608-8ef9-46c8-b15b" id="sg10-sp-4c8e-b053">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="sg10-sp-4c8e-b054"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="sg10-sp-4c8e-b055"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="For every ten Storm Guardians in the unit, you may add one of the following:" id="4291-70d4-4336-b194">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4199-2608-47a7-9257"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Defender Platform
-	 Checked under Defender Platform</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="For every five Storm Guardians in the unit, one Storm Guardian may exchange their Chainsword for the following:" id="bcb1-e363-44af-9be4">
               <entryLinks>
-                <entryLink name="Chainsword" hidden="false" type="selectionEntry" targetId="dc89-d283-44d7-8763" id="350e-d4ff-44d2-a77e">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef69-e7ad-44a8-9511"/>
-                  </constraints>
-                </entryLink>
                 <entryLink name="Power Weapon" hidden="false" type="selectionEntry" targetId="36a7-1c39-670c-5fec" id="8628-dab0-4c30-9804">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
@@ -2076,11 +2105,6 @@ Could not find wargear Defender Platform
             </selectionEntryGroup>
             <selectionEntryGroup name="For every five Storm Guardians in the unit, one Storm Guardian may exchange their Chainsword and Shuriken Pistol for one of the following:" id="1666-9f92-4cd9-8e13">
               <entryLinks>
-                <entryLink name="Shuriken Pistol" hidden="false" type="selectionEntry" targetId="4608-8ef9-46c8-b15b" id="76fb-2acc-439c-a26f">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d01-55fa-4bab-82f4"/>
-                  </constraints>
-                </entryLink>
                 <entryLink name="Flamer" hidden="false" type="selectionEntry" targetId="f0d1-c88b-4f7a-a4ae" id="6f13-dc0f-428a-9c31">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
@@ -2111,8 +2135,6 @@ Could not find wargear Defender Platform
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="7"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in For every ten Storm Guardians in the unit, you may add one of the following:</comment>
         </selectionEntry>
         <selectionEntry type="model" name="Defender Platform" id="f44b-324b-492b-9d36" page="49" publicationId="a368-64f0-10c7-c49d">
           <profiles>
@@ -2180,13 +2202,18 @@ Could not find wargear in For every ten Storm Guardians in the unit, you may add
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c765-9b45-4b4a-a491"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)" hidden="false" type="selectionEntry" targetId="aml-bundle-4c8e-b600" id="sg10-aml-4c8e-b850">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="sg10-aml-4c8e-b851"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d56-1994-4d5e-8f51"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)
-	 Checked under Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -2194,8 +2221,6 @@ Could not find wargear Aeldari Missile Launcher (with Sunburst, Starshot, and St
             <categoryLink targetId="88bc-c291-44f8-8798" id="7df1-3d89-425e-b320" name="Asuryani" primary="false"/>
             <categoryLink targetId="86d1-f085-4b72-a703" id="6703-96bb-49f2-a73d" name="Grav-Platform" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any Defender Platform in the unit may exchange its Shuriken Cannon for one of the following:</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2243,8 +2268,6 @@ Could not find wargear in Any Defender Platform in the unit may exchange its Shu
           </modifiers>
         </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Chainsword is in two option lists for Storm Guardian, you will need to combine them by hand.</comment>
     </selectionEntry>
     <selectionEntry name="Windriders" type="unit" id="c07d-74e4-4b5d-8e25" page="50" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -2665,6 +2688,15 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb74-c7e2-404f-aa46"/>
               </constraints>
             </entryLink>
+            <entryLink name="Twin-Linked Shuriken Catapult" hidden="false" type="selectionEntry" targetId="tlsc-4c8e-b860-a8f0" id="ws10-tlsc-4c8e-b8b0">
+              <modifiers>
+                <modifier type="set" field="name" value="Hull (Front) Mounted Twin-Linked Shuriken Catapult"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ws10-tlsc-4c8e-b8b1"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ws10-tlsc-4c8e-b8b2"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="A Wave Serpent may exchange its Hull (Front) Mounted Twin-Linked Shuriken Catapult for a:" id="8f3a-a385-4ab3-9435">
@@ -2684,9 +2716,6 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61b1-dca4-4504-842c"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Hull (Front) Mounted Twin-Linked Shuriken Catapult
-	 Checked under Twin-Linked Shuriken Catapult</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="A Wave Serpent may exchange its Turret Mounted Gravis Shuriken Cannon for one of the following:" id="4dd4-1906-49bb-a048">
               <entryLinks>
@@ -2731,13 +2760,21 @@ Could not find wargear Hull (Front) Mounted Twin-Linked Shuriken Catapult
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4b0-15e6-43c9-a26c"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Twin-Linked Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)" hidden="false" type="selectionEntry" targetId="tlaml-bundle-4c8e-b8a0" id="ws20-tlaml-4c8e-b8c0">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Twin-Linked Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ws20-tlaml-4c8e-b8c1"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f42-f29d-4c90-8306"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Turret Mounted Twin-Linked Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)
-	 Checked under Twin-Linked Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="A Wave Serpent may take one of the following:" id="ec3b-6db8-4608-a11b">
               <entryLinks>
@@ -2809,9 +2846,6 @@ Could not find wargear Turret Mounted Twin-Linked Aeldari Missile Launcher (with
             <categoryLink targetId="6a28-17c5-8117-d99c" id="89f6-8c80-4bf8-9b2e" name="Skimmer" primary="false"/>
             <categoryLink targetId="0ea2-efb5-b7af-226e" id="36eb-c22f-46a1-a5eb" name="Fast" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in A Wave Serpent may exchange its Hull (Front) Mounted Twin-Linked Shuriken Catapult for a:
-Could not find wargear in A Wave Serpent may exchange its Turret Mounted Gravis Shuriken Cannon for one of the following:</comment>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -2865,6 +2899,24 @@ Could not find wargear in A Wave Serpent may exchange its Turret Mounted Gravis 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3e8-71ed-4379-ba05"/>
               </constraints>
             </entryLink>
+            <entryLink name="Prism Rifle - Dispersed" hidden="false" type="selectionEntry" targetId="539f-34f6-402e-9469" id="ss10-pd10-4c8e-b3e0">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ss10-pd11-4c8e-b3e1"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ss10-pd12-4c8e-b3e2"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Prism Rifle - Focused" hidden="false" type="selectionEntry" targetId="95e3-59dd-4f8c-9d3c" id="ss20-pf10-4c8e-b3e3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ss20-pf11-4c8e-b3e4"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ss20-pf12-4c8e-b3e5"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Haywire Grenade" hidden="false" type="selectionEntry" targetId="9eab-36bd-453e-b49d" id="ss30-hw10-4c8e-b3e6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ss30-hw11-4c8e-b3e7"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ss30-hw12-4c8e-b3e8"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="d15f-0d56-47b1-af83" name="Infantry" primary="false"/>
@@ -2873,11 +2925,6 @@ Could not find wargear in A Wave Serpent may exchange its Turret Mounted Gravis 
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Prism Rifle
-	 Checked under Prism Rifle
-Could not find wargear Haywire Grenades
-	 Checked under Haywire Grenades</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3000,6 +3047,12 @@ Could not find wargear Haywire Grenades
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ab4-9ba6-4139-b8a1"/>
               </constraints>
             </entryLink>
+            <entryLink name="Haywire Grenade" hidden="false" type="selectionEntry" targetId="9eab-36bd-453e-b49d" id="sh10-hw10-4c8e-b4a0">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="sh10-hw11-4c8e-b4a1"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="sh10-hw12-4c8e-b4a2"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="defa-78f8-464a-94ce" name="Infantry" primary="false"/>
@@ -3008,9 +3061,6 @@ Could not find wargear Haywire Grenades
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Haywire Grenades
-	 Checked under Haywire Grenades</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3117,6 +3167,18 @@ Could not find wargear Haywire Grenades
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b6c-c1a1-4aa9-971d"/>
               </constraints>
             </entryLink>
+            <entryLink name="Laser Lance (Ranged)" hidden="false" type="selectionEntry" targetId="44a1-133d-4fe8-994d" id="sp10-lr10-4c8e-b3f0">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="sp10-lr11-4c8e-b3f1"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="sp10-lr12-4c8e-b3f2"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Laser Lance (Melee)" hidden="false" type="selectionEntry" targetId="f854-7463-47a0-a932" id="sp20-lm10-4c8e-b3f3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="sp20-lm11-4c8e-b3f4"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="sp20-lm12-4c8e-b3f5"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any model in the unit may replace its Skyrunner Jetbike’s Twin-Linked Shuriken Catapult with one of the following:" id="ba6c-31d5-4635-b86d">
@@ -3150,10 +3212,6 @@ Could not find wargear Haywire Grenades
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Laser Lance
-	 Checked under Laser Lance
-Could not find type or subtype &apos;Cavalry&apos;</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3277,6 +3335,12 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a1a-7c66-437f-be9c"/>
               </constraints>
             </entryLink>
+            <entryLink name="Deathspinner" hidden="false" type="selectionEntry" targetId="c223-7ac9-45e8-9f24" id="ws10-ds10-4c8e-b3f6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ws10-ds11-4c8e-b3f7"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ws10-ds12-4c8e-b3f8"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="0a04-262c-4912-99d6" name="Infantry" primary="false"/>
@@ -3285,9 +3349,6 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="23"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Death Spinner
-	 Checked under Death Spinner</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3515,9 +3576,8 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
           </modifiers>
         </infoLink>
         <infoLink name="Deep Strike" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e" id="556f-1792-49ce-8550"/>
+        <infoLink name="Mark of Kurnous" hidden="false" type="rule" targetId="mk10-4c8e-b720-a7f0" id="sr10-mk10-4c8e-b820"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Mark of Kurnous</comment>
     </selectionEntry>
     <selectionEntry name="Vyper Squadron" type="unit" id="e6c2-0f8c-420f-ab7d" page="61" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -3563,15 +3623,16 @@ Could not find rule: Mark of Kurnous</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9819-ecf3-45a9-9f22"/>
               </constraints>
             </entryLink>
+            <entryLink name="Vyper Jetbike" hidden="false" type="selectionEntry" targetId="afa0-c7fb-4120-a416" id="vy10-jb-4c8e-b060">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="vy10-jb-4c8e-b061"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vy10-jb-4c8e-b062"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any Vyper may exchange their Vyper Jetbike’s Twin-Linked Shuriken Catapult for one of the following:" id="8508-341c-4d43-9862">
               <entryLinks>
-                <entryLink name="Vyper Jetbike" hidden="false" type="selectionEntry" targetId="afa0-c7fb-4120-a416" id="46cd-7c23-4d1f-9006">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dcd3-ed6b-4967-a94d"/>
-                  </constraints>
-                </entryLink>
                 <entryLink name="Shuriken Cannon" hidden="false" type="selectionEntry" targetId="9082-9db1-424a-8360" id="7b9d-3d51-46ef-ada9">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
@@ -3611,13 +3672,18 @@ Could not find rule: Mark of Kurnous</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7416-b007-4374-916f"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)" hidden="false" type="selectionEntry" targetId="aml-bundle-4c8e-b600" id="vy10-aml-4c8e-b8d0">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vy10-aml-4c8e-b8d1"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8614-645a-4405-a013"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)
-	 Checked under Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -3628,9 +3694,6 @@ Could not find wargear Aeldari Missile Launcher (with Sunburst, Starshot, and St
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any Vyper may exchange their Vyper Jetbike’s Shuriken Cannon for one of the following:
-Could not find type or subtype &apos;Cavalry&apos;</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3691,8 +3754,6 @@ Could not find type or subtype &apos;Cavalry&apos;</comment>
         </infoLink>
         <infoLink name="Deep Strike" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e" id="aa74-bbca-497c-985b"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Vyper Jetbike is in two option lists for Vyper, you will need to combine them by hand.</comment>
     </selectionEntry>
     <selectionEntry name="Nightshade Interceptor Squadron" type="unit" id="048e-950c-4ea1-9f1d" page="62" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -3842,6 +3903,17 @@ Vyper Jetbike is in two option lists for Vyper, you will need to combine them by
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2d8-c737-40c2-b683"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)" hidden="false" type="selectionEntry" targetId="aml-bundle-4c8e-b600" id="nw-aml-4c8e-b660">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Two Hull (Front) Mounted Aeldari Missile Launchers (with Sunburst, Starshot, and Starhawk Missiles)"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="nw-aml-4c8e-b661"/>
+                  </constraints>
+                </entryLink>
                 <entryLink name="Bright Lance" hidden="false" type="selectionEntry" targetId="b339-f2cd-40fc-962f" id="3811-7762-4acf-86e5">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
@@ -3857,9 +3929,6 @@ Vyper Jetbike is in two option lists for Vyper, you will need to combine them by
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23be-062e-462c-8d8f"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Two Hull (Front) Mounted Aeldari Missile Launchers (with Sunburst, Starshot, and Starhawk Missiles)
-	 Checked under Aeldari Missile Launchers (with Sunburst, Starshot, and Starhawk Missiles)</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -3871,8 +3940,6 @@ Could not find wargear Two Hull (Front) Mounted Aeldari Missile Launchers (with 
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="130"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any Nightwing Interceptor may exchange their Two Hull (Front) Mounted Scatter Lasers for one of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -3884,9 +3951,8 @@ Could not find wargear in Any Nightwing Interceptor may exchange their Two Hull 
           </modifiers>
         </infoLink>
         <infoLink name="Deep Strike" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e" id="1488-e8ad-4bdb-957c"/>
+        <infoLink name="Holo-Fields" hidden="false" type="rule" targetId="hf10-ru10-4c8e-b4b0" id="nw10-hf10-4c8e-b4c0"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Holo-Fields</comment>
     </selectionEntry>
     <selectionEntry name="Phoenix Bomber Squadron" type="unit" id="33bd-0c50-4164-98c8" page="64" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -4024,9 +4090,12 @@ Could not find rule: Holo-Fields</comment>
             <modifier type="set" field="name" value="Shrouded (6+)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Strafing Run (X)" hidden="false" type="rule" targetId="6b78-4ec2-3604-78a3" id="pb10-sr10-4c8e-b4d0">
+          <modifiers>
+            <modifier type="set" field="name" value="Strafing Run (1)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Strafing Run</comment>
     </selectionEntry>
     <selectionEntry name="Vaul’S Wrath Support Battery" type="unit" id="3cf4-0740-4ca0-bfe3" page="68" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -4184,10 +4253,13 @@ Could not find rule: Strafing Run</comment>
             <modifier type="set" field="name" value="Bulky (4) (Support Weapon only)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Relentless" hidden="false" type="rule" targetId="7adf-ac9a-5035-522d" id="vw10-rel-4c8e-b010">
+          <modifiers>
+            <modifier type="set" field="name" value="Relentless (Support Weapon only)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Guardian Artillerists" hidden="false" type="rule" targetId="ga10-4c8e-b000" id="vw10-ga10-4c8e-b020"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Relentless (Support Weapon only)
-Could not find rule: Guardian Artillerists</comment>
     </selectionEntry>
     <selectionEntry name="Dark Reapers" type="unit" id="c209-eaae-48fe-9594" page="69" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -4233,6 +4305,12 @@ Could not find rule: Guardian Artillerists</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc99-2812-470b-adb7"/>
               </constraints>
             </entryLink>
+            <entryLink name="Reaper Launcher (with Starswarm, Starshot, and Starhawk Missiles)" hidden="false" type="selectionEntry" targetId="rml-bundle-4c8e-b030" id="dr10-rml-4c8e-b040">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dr10-rml-4c8e-b041"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dr10-rml-4c8e-b042"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="cf26-3070-4da1-a5ea" name="Infantry" primary="false"/>
@@ -4242,9 +4320,6 @@ Could not find rule: Guardian Artillerists</comment>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Reaper Launcher (with Starswarm, Starshot, and Starhawk Missiles)
-	 Checked under Reaper Launcher (with Starswarm, Starshot, and Starhawk Missiles)</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4328,6 +4403,15 @@ Could not find wargear Reaper Launcher (with Starswarm, Starshot, and Starhawk M
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bb9-4bc7-45f3-a7b7"/>
               </constraints>
             </entryLink>
+            <entryLink name="Twin-Linked Shuriken Catapult" hidden="false" type="selectionEntry" targetId="tlsc-4c8e-b860-a8f0" id="fa10-tlsc-4c8e-b8e0">
+              <modifiers>
+                <modifier type="set" field="name" value="Hull (Front) Mounted Twin-Linked Shuriken Catapult"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fa10-tlsc-4c8e-b8e1"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa10-tlsc-4c8e-b8e2"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="A Falcon may exchange its Hull (Front) Mounted Twin-Linked Shuriken Catapult for a:" id="ab82-4513-4ad1-9709">
@@ -4347,9 +4431,6 @@ Could not find wargear Reaper Launcher (with Starswarm, Starshot, and Starhawk M
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="042b-c374-4102-9d84"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Hull (Front) Mounted Twin-Linked Shuriken Catapult
-	 Checked under Twin-Linked Shuriken Catapult</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="A Falcon may exchange its Turret Mounted Gravis Shuriken Cannon for one of the following:" id="4d57-dc8f-4334-930a">
               <entryLinks>
@@ -4394,13 +4475,21 @@ Could not find wargear Hull (Front) Mounted Twin-Linked Shuriken Catapult
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb62-0bda-4c16-810a"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Twin-Linked Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)" hidden="false" type="selectionEntry" targetId="tlaml-bundle-4c8e-b8a0" id="fa20-tlaml-4c8e-b8f0">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Twin-Linked Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa20-tlaml-4c8e-b8f1"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b52e-668c-482f-8041"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Turret Mounted Twin-Linked Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)
-	 Checked under Twin-Linked Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="A Falcon may take one of the following:" id="ef57-7ce7-41da-8ab9">
               <entryLinks>
@@ -4475,9 +4564,6 @@ Could not find wargear Turret Mounted Twin-Linked Aeldari Missile Launcher (with
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in A Falcon may exchange its Hull (Front) Mounted Twin-Linked Shuriken Catapult for a:
-Could not find wargear in A Falcon may exchange its Turret Mounted Gravis Shuriken Cannon for one of the following:</comment>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -4509,6 +4595,26 @@ Could not find wargear in A Falcon may exchange its Turret Mounted Gravis Shurik
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ffc2-2a21-4342-ad90"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="58c1-70e0-4afe-a96d"/>
           </constraints>
+          <entryLinks>
+            <entryLink name="Prism Cannon" hidden="false" type="selectionEntry" targetId="pc-bundle-4c8e-b630" id="fp10-pc10-4c8e-b900">
+              <modifiers>
+                <modifier type="set" field="name" value="Turret Mounted Prism Cannon"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fp10-pc11-4c8e-b901"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fp10-pc12-4c8e-b902"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Twin-Linked Shuriken Catapult" hidden="false" type="selectionEntry" targetId="tlsc-4c8e-b860-a8f0" id="fp20-tlsc-4c8e-b910">
+              <modifiers>
+                <modifier type="set" field="name" value="Hull (Front) Mounted Twin-Linked Shuriken Catapult"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fp20-tlsc-4c8e-b911"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fp20-tlsc-4c8e-b912"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="A Fire Prism may exchange its Hull (Front) Mounted Twin-Linked Shuriken Catapult for a:" id="f500-d2ce-4396-9102">
               <entryLinks>
@@ -4527,9 +4633,6 @@ Could not find wargear in A Falcon may exchange its Turret Mounted Gravis Shurik
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc4b-67a1-4bbe-8070"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Hull (Front) Mounted Twin-Linked Shuriken Catapult
-	 Checked under Twin-Linked Shuriken Catapult</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="A Fire Prism may take one of the following:" id="5198-dce8-4165-bec8">
               <entryLinks>
@@ -4603,10 +4706,6 @@ Could not find wargear Hull (Front) Mounted Twin-Linked Shuriken Catapult
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="150"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Turret Mounted Prism Cannon
-	 Checked under Prism Cannon
-Could not find wargear in A Fire Prism may exchange its Hull (Front) Mounted Twin-Linked Shuriken Catapult for a:</comment>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -4638,6 +4737,26 @@ Could not find wargear in A Fire Prism may exchange its Hull (Front) Mounted Twi
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5611-acbe-46d7-87ba"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d982-3957-45f6-9c17"/>
           </constraints>
+          <entryLinks>
+            <entryLink name="Doomweaver" hidden="false" type="selectionEntry" targetId="dw-bundle-4c8e-b640" id="ns10-dw10-4c8e-b920">
+              <modifiers>
+                <modifier type="set" field="name" value="Turret Mounted Doomweaver"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ns10-dw11-4c8e-b921"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ns10-dw12-4c8e-b922"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Twin-Linked Shuriken Catapult" hidden="false" type="selectionEntry" targetId="tlsc-4c8e-b860-a8f0" id="ns20-tlsc-4c8e-b930">
+              <modifiers>
+                <modifier type="set" field="name" value="Hull (Front) Mounted Twin-Linked Shuriken Catapult"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ns20-tlsc-4c8e-b931"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ns20-tlsc-4c8e-b932"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="A Night Spinner may exchange its Hull (Front) Mounted Twin-Linked Shuriken Catapult for a:" id="96e1-731c-49fa-adac">
               <entryLinks>
@@ -4656,9 +4775,6 @@ Could not find wargear in A Fire Prism may exchange its Hull (Front) Mounted Twi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9308-55ce-4e34-9647"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Hull (Front) Mounted Twin-Linked Shuriken Catapult
-	 Checked under Twin-Linked Shuriken Catapult</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="A Night Spinner may take one of the following:" id="e992-deb3-4555-8f53">
               <entryLinks>
@@ -4732,10 +4848,6 @@ Could not find wargear Hull (Front) Mounted Twin-Linked Shuriken Catapult
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="160"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Turret Mounted Doomweaver
-	 Checked under Doomweaver
-Could not find wargear in A Night Spinner may exchange its Hull (Front) Mounted Twin-Linked Shuriken Catapult for a:</comment>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -4783,6 +4895,15 @@ Could not find wargear in A Night Spinner may exchange its Hull (Front) Mounted 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f1f-72cd-405c-a6c2"/>
               </constraints>
             </entryLink>
+            <entryLink name="Twin-Linked Shuriken Catapult" hidden="false" type="selectionEntry" targetId="tlsc-4c8e-b860-a8f0" id="fs10-tlsc-4c8e-b990">
+              <modifiers>
+                <modifier type="set" field="name" value="Hull (Front) Mounted Twin-Linked Shuriken Catapult"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fs10-tlsc-4c8e-b991"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fs10-tlsc-4c8e-b992"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="A Firestorm may exchange its Hull (Front) Mounted Twin-Linked Shuriken Catapult for a:" id="f14a-7b69-499c-b94b">
@@ -4802,9 +4923,6 @@ Could not find wargear in A Night Spinner may exchange its Hull (Front) Mounted 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58aa-2dca-4770-84a1"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Hull (Front) Mounted Twin-Linked Shuriken Catapult
-	 Checked under Twin-Linked Shuriken Catapult</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="A Firestorm may take one of the following:" id="b970-2fbf-45d4-9754">
               <entryLinks>
@@ -4878,8 +4996,6 @@ Could not find wargear Hull (Front) Mounted Twin-Linked Shuriken Catapult
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in A Firestorm may exchange its Hull (Front) Mounted Twin-Linked Shuriken Catapult for a:</comment>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -4921,6 +5037,15 @@ Could not find wargear in A Firestorm may exchange its Hull (Front) Mounted Twin
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4626-2ef0-41df-9f2b"/>
               </constraints>
             </entryLink>
+            <entryLink name="Wraith Gauntlet" hidden="false" type="selectionEntry" targetId="5584-1aaf-4d67-ba28" id="wl10-wg10-4c8e-b950">
+              <modifiers>
+                <modifier type="set" field="name" value="Two Wraith Gauntlets (with in-built Shuriken Catapults)"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="wl10-wg11-4c8e-b951"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="wl10-wg12-4c8e-b952"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any Wraithlord may select up to two of the following options in any combination:" id="c672-e6ab-43e7-9809">
@@ -4957,21 +5082,33 @@ Could not find wargear in A Firestorm may exchange its Hull (Front) Mounted Twin
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b3a2-8be2-4e70-b187"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)" hidden="false" type="selectionEntry" targetId="aml-bundle-4c8e-b600" id="wl20-aml-4c8e-b960">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="wl20-aml-4c8e-b961"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1093-8e60-4a67-a383"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)
-	 Checked under Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="Any Wraithlord may replace a single Wraith Gauntlet (with in-built Shuriken Catapult) for:" id="d070-ebe9-4cdf-8ec6">
+              <entryLinks>
+                <entryLink name="Wraithsword" hidden="false" type="selectionEntry" targetId="wrs-bundle-4c8e-b940" id="wl30-wrs-4c8e-b970">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Wraithsword (with in-built Shuriken Catapult)"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="wl30-wrs-4c8e-b971"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4219-bf73-4733-911c"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Wraithsword (with in-built Shuriken Catapult)
-	 Checked under Wraithsword (with in-built Shuriken Catapult)</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="Any Wraithlord may replace an in-built Shuriken Catapult on either a Wraith Gauntlet or Wraithsword with one of the following:" id="4682-5219-4a9e-9f60">
               <entryLinks>
@@ -5004,12 +5141,6 @@ Could not find wargear Wraithsword (with in-built Shuriken Catapult)
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="180"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Two Wraith Gauntlets (with in-built Shuriken Catapults)
-	 Checked under Wraith Gauntlets (with in-built Shuriken Catapults)
-Could not find wargear in Any Wraithlord may select up to two of the following options in any combination:
-Could not find wargear in Any Wraithlord may replace a single Wraith Gauntlet (with in-built Shuriken Catapult) for:
-Could not find type or subtype &apos;Automata&apos;</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -5065,6 +5196,12 @@ Could not find type or subtype &apos;Automata&apos;</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94b1-5dd1-49bd-91c3"/>
               </constraints>
             </entryLink>
+            <entryLink name="Wraithshield" hidden="false" type="selectionEntry" targetId="ws10-4c8e-b080" id="wseer10-wsh-4c8e-b092">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="wseer10-wsh-4c8e-b093"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="wseer10-wsh-4c8e-b094"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="A Wraithseer may select one of the following options:" id="bda2-6cc0-4c3d-9f02">
@@ -5109,13 +5246,18 @@ Could not find type or subtype &apos;Automata&apos;</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4d1-7252-4e97-a0c0"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)" hidden="false" type="selectionEntry" targetId="aml-bundle-4c8e-b600" id="wseer10-aml-4c8e-b980">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="wseer10-aml-4c8e-b981"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b53-f7ca-49ee-9a52"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)
-	 Checked under Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -5125,9 +5267,6 @@ Could not find wargear Aeldari Missile Launcher (with Sunburst, Starshot, and St
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="42d9-5caa-4ed1-9e8a" name="Character" primary="false"/>
           </categoryLinks>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear Wraithshield
-	 Checked under Wraithshield
-Could not find wargear in A Wraithseer may select one of the following options:
 Could not find type or subtype &apos;Automata&apos;</comment>
         </selectionEntry>
       </selectionEntries>
@@ -5231,6 +5370,14 @@ Could not find type or subtype &apos;Automata&apos;</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="A Wraithknight may exchange an Arm Mounted Heavy Wraithcannon for one of the following options:" id="1e9e-ae2f-4fe7-9b93">
               <entryLinks>
+                <entryLink name="Ghostglaive" hidden="false" type="selectionEntry" targetId="gg-bundle-4c8e-b610" id="wk-gg-4c8e-b670">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Arm Mounted Ghostglaive"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="wk-gg-4c8e-b671"/>
+                  </constraints>
+                </entryLink>
                 <entryLink name="Scattershield" hidden="false" type="selectionEntry" targetId="9cb5-c5c0-41bd-9072" id="3675-f9a0-46f5-9281">
                   <modifiers>
                     <modifier type="set" field="name" value="Arm Mounted Scattershield"/>
@@ -5251,9 +5398,6 @@ Could not find type or subtype &apos;Automata&apos;</comment>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c98-1ab5-470c-9a0e"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Arm Mounted Ghostglaive
-	 Checked under Ghostglaive</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -5261,8 +5405,6 @@ Could not find wargear Arm Mounted Ghostglaive
             <categoryLink targetId="88bc-c291-44f8-8798" id="d756-f796-4849-8164" name="Asuryani" primary="false"/>
             <categoryLink targetId="437f-7773-a0d0-6061" id="547c-d022-4f43-a04e" name="Knight" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in A Wraithknight may exchange an Arm Mounted Heavy Wraithcannon for one of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -5305,6 +5447,15 @@ Could not find wargear in A Wraithknight may exchange an Arm Mounted Heavy Wrait
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f45-fa4b-4bab-b5c8"/>
           </constraints>
           <entryLinks>
+            <entryLink name="Deathshroud Cannon" hidden="false" type="selectionEntry" targetId="dsc-bundle-4c8e-b620" id="sk-dsc-4c8e-b680">
+              <modifiers>
+                <modifier type="set" field="name" value="Two Arm Mounted Deathshroud Cannons"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="sk-dsc-4c8e-b681"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="sk-dsc-4c8e-b682"/>
+              </constraints>
+            </entryLink>
             <entryLink name="Webway Shunt Generator" hidden="false" type="selectionEntry" targetId="2af2-84fb-4453-a64b" id="e22f-cd0c-4645-b9ea">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ca1e-c187-4ce2-bbae"/>
@@ -5361,6 +5512,14 @@ Could not find wargear in A Wraithknight may exchange an Arm Mounted Heavy Wrait
             </selectionEntryGroup>
             <selectionEntryGroup name="A Skathach Wraithknight may exchange an Arm Mounted Deathshroud Cannon for one of the following:" id="2d4c-1d92-4b4d-87f7">
               <entryLinks>
+                <entryLink name="Ghostglaive" hidden="false" type="selectionEntry" targetId="gg-bundle-4c8e-b610" id="sk-gg-4c8e-b690">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Arm Mounted Ghostglaive"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="sk-gg-4c8e-b691"/>
+                  </constraints>
+                </entryLink>
                 <entryLink name="Inferno Lance" hidden="false" type="selectionEntry" targetId="d23e-43f0-4d26-a79e" id="4b75-7053-4f5d-9a03">
                   <modifiers>
                     <modifier type="set" field="name" value="Arm Mounted Inferno Lance"/>
@@ -5381,9 +5540,6 @@ Could not find wargear in A Wraithknight may exchange an Arm Mounted Heavy Wrait
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8c1-6e43-4264-a9f1"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Arm Mounted Ghostglaive
-	 Checked under Ghostglaive</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -5391,10 +5547,6 @@ Could not find wargear Arm Mounted Ghostglaive
             <categoryLink targetId="88bc-c291-44f8-8798" id="27af-78a1-4276-9a45" name="Asuryani" primary="false"/>
             <categoryLink targetId="437f-7773-a0d0-6061" id="34a1-b3aa-40e5-b0d0" name="Knight" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Two Arm Mounted Deathshroud Cannons
-	 Checked under Deathshroud Cannon
-Could not find wargear in A Skathach Wraithknight may exchange an Arm Mounted Deathshroud Cannon for one of the following:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -5454,6 +5606,21 @@ Could not find wargear in A Skathach Wraithknight may exchange an Arm Mounted De
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d999-1076-4800-a88a"/>
               </constraints>
             </entryLink>
+            <entryLink name="Twin-Linked Phoenix Missile Launcher" hidden="false" type="selectionEntry" targetId="tlp1-4c8e-b510-a3f0" id="vh20-pm10-4c8e-b530">
+              <modifiers>
+                <modifier type="set" field="name" value="Two Hull (Front) Mounted Twin-Linked Phoenix Missile Launchers"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="vh20-pm11-4c8e-b531"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vh20-pm12-4c8e-b532"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Improved Holo-Fields" hidden="false" type="selectionEntry" targetId="70a2-faa0-4817-bca3" id="vh30-hf10-4c8e-b533">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="vh30-hf11-4c8e-b534"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vh30-hf12-4c8e-b535"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="4946-639b-4eee-a6c9" name="Vehicle" primary="false"/>
@@ -5461,19 +5628,17 @@ Could not find wargear in A Skathach Wraithknight may exchange an Arm Mounted De
             <categoryLink targetId="7f9b-c5ed-7edb-02dc" id="f9a0-0e2d-4e09-9022" name="Lumbering" primary="false"/>
             <categoryLink targetId="3a7a-8bb7-b0d3-e2e7" id="7b05-69f1-492c-8faf" name="Hover" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Two Hull (Front) Mounted Twin-Linked Phoenix Missile Launchers
-	 Checked under Twin-Linked Phoenix Missile Launcher
-Could not find wargear Improved Holo Fields
-	 Checked under Improved Holo Fields</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Deep Strike" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e" id="90da-273d-473d-a87c"/>
         <infoLink name="Agile" hidden="false" type="rule" targetId="7476-6eed-4dee-b82f" id="578c-5f8c-40c7-83e5"/>
+        <infoLink name="Strafing Run (X)" hidden="false" type="rule" targetId="6b78-4ec2-3604-78a3" id="vh10-sr10-4c8e-b4e0">
+          <modifiers>
+            <modifier type="set" field="name" value="Strafing Run (1)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Strafing Run</comment>
     </selectionEntry>
     <selectionEntry name="Vampire Raider" type="unit" id="ad19-d09c-475c-9668" page="81" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -5522,21 +5687,48 @@ Could not find rule: Strafing Run</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1552-0357-4ae4-a939"/>
               </constraints>
             </entryLink>
+            <entryLink name="Improved Holo-Fields" hidden="false" type="selectionEntry" targetId="70a2-faa0-4817-bca3" id="vr20-hf10-4c8e-b540">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="vr20-hf11-4c8e-b541"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vr20-hf12-4c8e-b542"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="A Vampire Raider may exchange its Two Hull (Front) Gravis Shuriken Cannons for:" id="8716-a132-4488-9e19">
+              <entryLinks>
+                <entryLink name="Twin-Linked Pulse Laser" hidden="false" type="selectionEntry" targetId="tlpl-4c8e-b520-a4f0" id="vr30-pl10-4c8e-b543">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Two Hull (Front) Mounted Twin-Linked Pulse Lasers"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vr30-pl11-4c8e-b544"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4961-8d35-4783-98dd"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Two Hull (Front) Mounted Twin-Linked Pulse Lasers
-	 Checked under Twin-Linked Pulse Laser</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="A Vampire Raider may take the following:" id="1dc0-4916-4597-89af">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a6b-56ba-4cc1-893e"/>
               </constraints>
               <entryLinks>
+                <entryLink name="Twin-Linked Phoenix Missile Launcher" hidden="false" type="selectionEntry" targetId="tlp1-4c8e-b510-a3f0" id="vr40-pm10-4c8e-b545">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Two Hull (Front) Mounted Twin-Linked Phoenix Missile Launchers"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vr40-pm11-4c8e-b546"/>
+                  </constraints>
+                </entryLink>
                 <entryLink name="Pulsar" hidden="false" type="selectionEntry" targetId="16d4-8a02-4db4-b4d4" id="63f5-332d-461f-beba">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
@@ -5547,13 +5739,8 @@ Could not find wargear Two Hull (Front) Mounted Twin-Linked Pulse Lasers
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df34-2109-48c3-bf9d"/>
                   </constraints>
-                  <comment>!BSC Errors from 20240406-1603
-Name ends in a star, check the rules for special handling</comment>
                 </entryLink>
               </entryLinks>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Two Hull (Front) Mounted Twin-Linked Phoenix Missile Launchers
-	 Checked under Twin-Linked Phoenix Missile Launcher</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -5563,19 +5750,17 @@ Could not find wargear Two Hull (Front) Mounted Twin-Linked Phoenix Missile Laun
             <categoryLink targetId="3a7a-8bb7-b0d3-e2e7" id="7eb3-de28-4505-a106" name="Hover" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="8d9d-a864-475e-9583" name="Transport" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Improved Holo Fields
-	 Checked under Improved Holo Fields
-Could not find wargear in A Vampire Raider may exchange its Two Hull (Front) Gravis Shuriken Cannons for:
-Could not find wargear in A Vampire Raider may take the following:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Deep Strike" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e" id="2f65-f891-485c-9408"/>
         <infoLink name="Agile" hidden="false" type="rule" targetId="7476-6eed-4dee-b82f" id="e2c8-9cd3-45d8-92cd"/>
+        <infoLink name="Strafing Run (X)" hidden="false" type="rule" targetId="6b78-4ec2-3604-78a3" id="vr10-sr10-4c8e-b4f0">
+          <modifiers>
+            <modifier type="set" field="name" value="Strafing Run (1)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Strafing Run</comment>
     </selectionEntry>
     <selectionEntry name="Phantom Titan" type="unit" id="d9cc-ad45-4095-bba8" page="82" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -5633,6 +5818,15 @@ Could not find rule: Strafing Run</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2da0-2080-4c10-b493"/>
               </constraints>
             </entryLink>
+            <entryLink name="Phantom-Pulsar" hidden="false" type="selectionEntry" targetId="84a0-8072-42ad-bd29" id="pt10-pp10-4c8e-b730">
+              <modifiers>
+                <modifier type="set" field="name" value="Two Arm Mounted Phantom-Pulsars"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="pt10-pp11-4c8e-b731"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="pt10-pp12-4c8e-b732"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="A Phantom Titan may exchange either of its Arm Mounted Phantom-Pulsars for one of the following:" id="45c8-bd17-4f43-a2ff">
@@ -5645,13 +5839,18 @@ Could not find rule: Strafing Run</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d39-19e9-4ad0-987b"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Wraith Glaive and Twin-Linked Gravis Starcannon" hidden="false" type="selectionEntry" targetId="pt-wg-4c8e-b740" id="pt20-wg10-4c8e-b741">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Arm Mounted Wraith Glaive and Twin-Linked Gravis Starcannon"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="pt20-wg11-4c8e-b742"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="276d-4686-4a1c-8cda"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Arm Mounted Wraith Glaive and Twin-Linked Gravis Starcannon
-	 Checked under Wraith Glaive and Twin-Linked Gravis Starcannon</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="A Phantom Titan may exchange its Hull (Front) Mounted Gravis Starcannon for the following:" id="3960-fea6-4315-b9ab">
               <entryLinks>
@@ -5682,22 +5881,17 @@ Could not find wargear Arm Mounted Wraith Glaive and Twin-Linked Gravis Starcann
             <categoryLink targetId="88bc-c291-44f8-8798" id="f3c0-20f1-4559-baac" name="Asuryani" primary="false"/>
             <categoryLink targetId="4280-2d8-16c6-d60b" id="2100-eb42-4ebd-b7fe" name="Titan" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Two Arm mounted Phantom-Pulsar
-	 Checked under Arm mounted Phantom-Pulsar
-Could not find wargear in A Phantom Titan may exchange either of its Arm Mounted Phantom-Pulsars for one of the following:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Night Vision" hidden="false" type="rule" targetId="683e-b4f2-f032-d31b" id="c136-ce07-4712-97ed"/>
+        <infoLink name="Wraithbone Core" hidden="false" type="rule" targetId="wbc10-4c8e-b070" id="pt10-wbc-4c8e-b090"/>
         <infoLink name="It Will Not Die (X)" hidden="false" type="rule" targetId="2784-d0be-a4e2-890f" id="3417-5e0e-4aaa-a82b">
           <modifiers>
             <modifier type="set" field="name" value="It Will Not Die (5+)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Wraithbone Core</comment>
     </selectionEntry>
     <selectionEntry name="Revenant Titan" type="unit" id="c05c-a32e-448f-8e51" page="83" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -5755,6 +5949,12 @@ Could not find rule: Wraithbone Core</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6229-dba5-4866-af75"/>
               </constraints>
             </entryLink>
+            <entryLink name="Holo-Fields" hidden="false" type="selectionEntry" targetId="66ae-fe03-4955-a629" id="rt10-hf10-4c8e-b500">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="rt10-hf11-4c8e-b501"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="rt10-hf12-4c8e-b502"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="A Revenant Titan may exchange both of its Arm Mounted Revenant Pulsars for the following option:" id="a644-9a54-425d-be5c">
@@ -5802,13 +6002,11 @@ Could not find rule: Wraithbone Core</comment>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="750"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Holo-Field
-	 Checked under Holo-Field</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Night Vision" hidden="false" type="rule" targetId="683e-b4f2-f032-d31b" id="5257-bb01-46f4-90d4"/>
+        <infoLink name="Wraithbone Core" hidden="false" type="rule" targetId="wbc10-4c8e-b070" id="rt10-wbc-4c8e-b091"/>
         <infoLink name="Wraith Conclave" hidden="false" type="rule" targetId="1df7-5eb2-4953-819e" id="34c3-96c9-4092-9f83"/>
         <infoLink name="It Will Not Die (X)" hidden="false" type="rule" targetId="2784-d0be-a4e2-890f" id="751d-a215-4ccc-9329">
           <modifiers>
@@ -5816,8 +6014,6 @@ Could not find wargear Holo-Field
           </modifiers>
         </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Wraithbone Core</comment>
     </selectionEntry>
     <selectionEntry name="Scorpion" type="unit" id="6f09-ee0b-496c-ac8a" page="84" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -5847,6 +6043,17 @@ Could not find rule: Wraithbone Core</comment>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cefe-1596-4d95-ad6e"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a57-edcd-4ce7-bf1e"/>
           </constraints>
+          <entryLinks>
+            <entryLink name="Twin-Linked Revenant Pulsar" hidden="false" type="selectionEntry" targetId="tlrp-4c8e-b700-a5f0" id="sc10-rp10-4c8e-b750">
+              <modifiers>
+                <modifier type="set" field="name" value="Turret Mounted Twin-Linked Revenant Pulsar"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="sc10-rp11-4c8e-b751"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="sc10-rp12-4c8e-b752"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="A Scorpion may exchange its Pintle Mounted Shuriken Cannon with one of the following:" id="eae4-7984-41b2-a817">
               <entryLinks>
@@ -5891,13 +6098,21 @@ Could not find rule: Wraithbone Core</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fe5-9455-4e6c-a7f9"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)" hidden="false" type="selectionEntry" targetId="aml-bundle-4c8e-b600" id="sc20-aml-4c8e-b760">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Pintle Mounted Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="sc20-aml-4c8e-b761"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ef2-3689-4639-acf9"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Pintle Mounted Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)
-	 Checked under Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="A Scorpion may take one of the following:" id="bba2-4fd9-4e22-954f">
               <entryLinks>
@@ -5932,13 +6147,18 @@ Could not find wargear Pintle Mounted Aeldari Missile Launcher (with Sunburst, S
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a675-1da9-468f-9a81"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Searchlights" hidden="false" type="selectionEntry" targetId="a280-c496-4014-aca3" id="sc30-sl10-4c8e-b770">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="sc30-sl11-4c8e-b771"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f97-1367-46ca-ac8d"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Searchlight
-	 Checked under Searchlight</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -5946,12 +6166,6 @@ Could not find wargear Searchlight
             <categoryLink targetId="88bc-c291-44f8-8798" id="dc7a-e1d8-4eae-a37b" name="Asuryani" primary="false"/>
             <categoryLink targetId="6a28-17c5-8117-d99c" id="fe5e-85bb-4bcd-8ab5" name="Skimmer" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Turret Mounted Twin-Linked Revenant Pulsar
-	 Checked under Twin-Linked Revenant Pulsar
-Could not find wargear in A Scorpion may exchange its Pintle Mounted Shuriken Cannon with one of the following:
-Could not find wargear in A Scorpion may take any of the following:
-Could not find type or subtype &apos;Super-Heavy&apos;</comment>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -6038,13 +6252,21 @@ Could not find type or subtype &apos;Super-Heavy&apos;</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3e0-ca6d-49c7-8aec"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)" hidden="false" type="selectionEntry" targetId="aml-bundle-4c8e-b600" id="cb20-aml-4c8e-b780">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Pintle Mounted Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb20-aml-4c8e-b781"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="064d-bf51-46ad-a9ca"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Pintle Mounted Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)
-	 Checked under Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="A Cobra may take one of the following:" id="f78a-db63-4c6a-8fbc">
               <entryLinks>
@@ -6079,13 +6301,18 @@ Could not find wargear Pintle Mounted Aeldari Missile Launcher (with Sunburst, S
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="763e-70dd-420d-bb92"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Searchlights" hidden="false" type="selectionEntry" targetId="a280-c496-4014-aca3" id="cb30-sl10-4c8e-b790">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb30-sl11-4c8e-b791"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="033e-8888-439c-a9f1"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Searchlight
-	 Checked under Searchlight</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -6093,10 +6320,6 @@ Could not find wargear Searchlight
             <categoryLink targetId="88bc-c291-44f8-8798" id="b987-0fbf-47c7-a474" name="Asuryani" primary="false"/>
             <categoryLink targetId="6a28-17c5-8117-d99c" id="a7ac-ce8b-4318-9b26" name="Skimmer" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in A Cobra may exchange its Pintle Mounted Shuriken Cannon with one of the following:
-Could not find wargear in A Cobra may take any of the following:
-Could not find type or subtype &apos;Super-Heavy&apos;</comment>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -6128,6 +6351,17 @@ Could not find type or subtype &apos;Super-Heavy&apos;</comment>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="62a0-35e6-4a0c-9273"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac5e-534c-47c7-899c"/>
           </constraints>
+          <entryLinks>
+            <entryLink name="Lynx Pulsar" hidden="false" type="selectionEntry" targetId="lp-bundle-4c8e-b650" id="lx10-lp10-4c8e-b800">
+              <modifiers>
+                <modifier type="set" field="name" value="Centreline Mounted Lynx Pulsar"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="lx10-lp11-4c8e-b801"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="lx10-lp12-4c8e-b802"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="A Lynx may exchange its Centreline Mounted Lynx Pulsar with the following:" id="685f-e5da-4675-a0a3">
               <entryLinks>
@@ -6146,9 +6380,6 @@ Could not find type or subtype &apos;Super-Heavy&apos;</comment>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d85f-0bb3-4e5d-abea"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Centreline Mounted Lynx Pulsar
-	 Checked under Lynx Pulsar</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="A Lynx may exchange its Hull (Front) Mounted Shuriken Cannon with one of the following:" id="6cfa-c3cd-432a-b502">
               <entryLinks>
@@ -6239,13 +6470,18 @@ Could not find wargear Centreline Mounted Lynx Pulsar
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f53-e988-482c-876c"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Searchlights" hidden="false" type="selectionEntry" targetId="a280-c496-4014-aca3" id="lx20-sl10-4c8e-b810">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="lx20-sl11-4c8e-b811"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4338-a6e1-48b2-959a"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Searchlight
-	 Checked under Searchlight</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -6254,9 +6490,6 @@ Could not find wargear Searchlight
             <categoryLink targetId="6a28-17c5-8117-d99c" id="8a68-7978-4e38-9f10" name="Skimmer" primary="false"/>
             <categoryLink targetId="0ea2-efb5-b7af-226e" id="2f5e-f6b7-440e-9bf9" name="Fast" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in A Lynx may exchange its Centreline Mounted Lynx Pulsar with the following:
-Could not find wargear in A Lynx may take any of the following:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6295,17 +6528,26 @@ Could not find wargear in A Lynx may take any of the following:</comment>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bacb-9621-43ec-be0c"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="88e8-7a37-457e-b1bc"/>
           </constraints>
+          <entryLinks>
+            <entryLink name="Molten Body" hidden="false" type="selectionEntry" targetId="avk-mb-lib-001" id="avk-mb-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="avk-mb-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="avk-mb-cat-003"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="The Wailing Doom" hidden="false" type="selectionEntry" targetId="avk-wd-bund-001" id="avk-wd-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="avk-wd-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="avk-wd-cat-003"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <categoryLinks>
             <categoryLink targetId="a9b4-ab6c-447a-a8a1" id="c427-099a-4f81-b832" name="Daemon Primarch" primary="false"/>
             <categoryLink targetId="88bc-c291-44f8-8798" id="3be4-f5e0-4729-9900" name="Asuryani" primary="false"/>
             <categoryLink targetId="f479-3c81-1e42-1b3a" id="f57b-96ce-48b0-ae56" name="Gargantuan" primary="false"/>
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="d8ba-b5ea-4194-88cf" name="Unique" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Molten Body
-	 Checked under Molten Body
-Could not find wargear The Wailing Doom
-	 Checked under The Wailing Doom</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6334,9 +6576,6 @@ Could not find wargear The Wailing Doom
           <description>All friendly units within 12&quot; of the Avatar of Khaine which can draw line of sight to it and have the Asuryani Unit Sub-type gain the Stubborn and Rage (2) Special Rules.</description>
         </rule>
       </rules>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: A Bloody-Handed God
-Could not find rule: Khaine Awakened</comment>
     </selectionEntry>
     <selectionEntry name="Asurmen" type="unit" id="8277-f14b-4518-a299" page="91" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -6383,16 +6622,25 @@ Could not find rule: Khaine Awakened</comment>
               </constraints>
             </entryLink>
           </entryLinks>
+          <entryLinks>
+            <entryLink name="The Bloody Twins" hidden="false" type="selectionEntry" targetId="asm-bt-lib-001" id="asm-bt-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="asm-bt-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="asm-bt-cat-003"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="The Sword of Asur" hidden="false" type="selectionEntry" targetId="asm-soa-lib-001" id="asm-soa-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="asm-soa-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="asm-soa-cat-003"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <categoryLinks>
             <categoryLink targetId="c6be-7d92-445f-9f41" id="abbf-da5b-416e-a772" name="Phoenix Lord" primary="false"/>
             <categoryLink targetId="88bc-c291-44f8-8798" id="6e44-fbbd-46f4-9b61" name="Asuryani" primary="false"/>
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="82d2-411b-4c2b-b1ff" name="Unique" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear The Bloody Twins
-	 Checked under The Bloody Twins
-Could not find wargear The Sword of Asur
-	 Checked under The Sword of Asur</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6424,8 +6672,6 @@ Could not find wargear The Sword of Asur
           <description>Whenever Asurmen fights in a Challenge, his Invulnerable Save is increased to a 3+.</description>
         </rule>
       </rules>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Shield of Grace</comment>
     </selectionEntry>
     <selectionEntry name="Baharroth" type="unit" id="7964-447c-4193-8be4" page="92" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -6484,18 +6730,34 @@ Could not find rule: Shield of Grace</comment>
               </constraints>
             </entryLink>
           </entryLinks>
+          <entryLinks>
+            <entryLink name="The Shining Blade" hidden="false" type="selectionEntry" targetId="bhr-sb-lib-001" id="bhr-sb-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bhr-sb-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bhr-sb-cat-003"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Fury of the Tempest" hidden="false" type="selectionEntry" targetId="bhr-ft-lib-001" id="bhr-ft-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bhr-ft-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bhr-ft-cat-003"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Haywire Grenades" hidden="false" type="selectionEntry" targetId="9eab-36bd-453e-b49d" id="bhr-hwg-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bhr-hwg-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bhr-hwg-cat-003"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" field="name" value="Haywire Grenades"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
           <categoryLinks>
             <categoryLink targetId="c6be-7d92-445f-9f41" id="25f8-2980-48f3-8705" name="Phoenix Lord" primary="false"/>
             <categoryLink targetId="88bc-c291-44f8-8798" id="2cf0-4747-44c8-8b14" name="Asuryani" primary="false"/>
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="f858-8735-44db-ad03" name="Unique" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear The Shining Blade
-	 Checked under The Shining Blade
-Could not find wargear Fury of the Tempest
-	 Checked under Fury of the Tempest
-Could not find wargear Haywire Grenades  Warlord: Cry of the Wind The Shining Blade                    Range Str
-	 Checked under Haywire Grenades  Warlord: Cry of the Wind The Shining Blade                    Range Str</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6513,9 +6775,18 @@ Could not find wargear Haywire Grenades  Warlord: Cry of the Wind The Shining Bl
         <infoLink name="Skyleap" hidden="false" type="rule" targetId="dcaf-b3ac-4f23-83ab" id="f371-a555-4644-a37e"/>
         <infoLink name="Skystrike" hidden="false" type="rule" targetId="53d4-848b-42b2-9577" id="5a93-5ac9-4646-9e63"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Sun’s Brilliance
-Could not find rule: Warlord: Cry of the Wind  AP Type</comment>
+      <rules>
+        <rule name="Sun&apos;s Brilliance" id="bhr-sb-rule-001" page="92" publicationId="a368-64f0-10c7-c49d">
+          <description>Shooting attacks targeting a unit containing a model with this Special Rule made as part of a Interceptor Reaction are resolved as Snap Shots. Models which are immune to the effects of Blind are not affected by Sun&apos;s Brilliance.</description>
+        </rule>
+        <rule name="Warlord: Cry of the Wind" id="bhr-cotw-rule-001" page="92" publicationId="a368-64f0-10c7-c49d">
+          <description>If chosen as the army&apos;s Warlord, Baharroth automatically has the Cry of the Wind Warlord Trait and may not select any other Warlord Trait.
+
+Models with the Aspect Shrine (Swooping Hawk) Special Rule in the same army as Baharroth gain the Hit &amp; Run and Reaping Blow (1) Special Rules.
+
+In addition, an army with Baharroth gains an additional Reaction in the Opposing Player&apos;s Movement phase, as long as Baharroth has not been removed as a casualty.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry name="Drastanta" type="unit" id="4eaf-2579-49cb-94f2" page="93" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -6562,18 +6833,31 @@ Could not find rule: Warlord: Cry of the Wind  AP Type</comment>
               </constraints>
             </entryLink>
           </entryLinks>
+          <entryLinks>
+            <entryLink name="The Crown of the Seventh Sky" hidden="false" type="selectionEntry" targetId="dst-cs-lib-001" id="dst-cs-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dst-cs-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dst-cs-cat-003"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="The Celestial Lance" hidden="false" type="selectionEntry" targetId="dst-cl-bund-001" id="dst-cl-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dst-cl-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dst-cl-cat-003"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Khaine&apos;s Destrier" hidden="false" type="selectionEntry" targetId="dst-kd-lib-001" id="dst-kd-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dst-kd-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dst-kd-cat-003"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <categoryLinks>
             <categoryLink targetId="c6be-7d92-445f-9f41" id="3f53-4a2f-426a-bea4" name="Phoenix Lord" primary="false"/>
             <categoryLink targetId="88bc-c291-44f8-8798" id="27fc-8269-492f-9a60" name="Asuryani" primary="false"/>
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="f3fd-e6fa-48ba-b928" name="Unique" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear The Crown of the Seventh Sky
-	 Checked under The Crown of the Seventh Sky
-Could not find wargear The Celestial Lance
-	 Checked under The Celestial Lance
-Could not find wargear Khaine&apos;s Destrier
-	 Checked under Khaine&apos;s Destrier</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6639,18 +6923,34 @@ Could not find wargear Khaine&apos;s Destrier
               </constraints>
             </entryLink>
           </entryLinks>
+          <entryLinks>
+            <entryLink name="Searsong" hidden="false" type="selectionEntry" targetId="fgn-ss-bund-001" id="fgn-ss-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fgn-ss-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fgn-ss-cat-003"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="The Fire Axe" hidden="false" type="selectionEntry" targetId="fgn-fa-lib-001" id="fgn-fa-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fgn-fa-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fgn-fa-cat-003"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Melta Bombs" hidden="false" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6" id="fgn-mb-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fgn-mb-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fgn-mb-cat-003"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" field="name" value="Melta Bombs"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
           <categoryLinks>
             <categoryLink targetId="c6be-7d92-445f-9f41" id="119f-4a43-41fa-aaf5" name="Phoenix Lord" primary="false"/>
             <categoryLink targetId="88bc-c291-44f8-8798" id="fc07-ecee-4b62-a9f5" name="Asuryani" primary="false"/>
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="8487-4206-445e-81fe" name="Unique" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Searsong
-	 Checked under Searsong
-Could not find wargear The Fire Axe
-	 Checked under The Fire Axe
-Could not find wargear Melta Bombs
-	 Checked under Melta Bombs</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6676,9 +6976,6 @@ Could not find wargear Melta Bombs
           <description>At the end of any phase in which a model with this Special Rule suffers one or more unsaved Wounds, their Strength and Attack Characteristics are increased by +1 for each unsaved Wound suffered. These Characteristic bonuses are permanent and last for the rest of the game (Note that Damage Mitigation Rolls do not prevent this Special Rule from taking effect).</description>
         </rule>
       </rules>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Dragon of Myth
-Could not find rule: Unquenchable Resolve</comment>
     </selectionEntry>
     <selectionEntry name="Irillyth" type="unit" id="759e-52c7-4a25-883f" page="95" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -6731,16 +7028,28 @@ Could not find rule: Unquenchable Resolve</comment>
               </constraints>
             </entryLink>
           </entryLinks>
+          <entryLinks>
+            <entryLink name="Spear of Starlight" hidden="false" type="selectionEntry" targetId="irl-sol-bund-001" id="irl-sol-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="irl-sol-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="irl-sol-cat-003"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Haywire Grenades" hidden="false" type="selectionEntry" targetId="9eab-36bd-453e-b49d" id="irl-hwg-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="irl-hwg-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="irl-hwg-cat-003"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" field="name" value="Haywire Grenades"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
           <categoryLinks>
             <categoryLink targetId="c6be-7d92-445f-9f41" id="f6ba-c4f2-4c7d-bb06" name="Phoenix Lord" primary="false"/>
             <categoryLink targetId="88bc-c291-44f8-8798" id="117d-27c5-4a4a-9526" name="Asuryani" primary="false"/>
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="11b5-449f-41c1-9064" name="Unique" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Spear of Starlight
-	 Checked under Spear of Starlight
-Could not find wargear Haywire Grenades
-	 Checked under Haywire Grenades</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6772,8 +7081,6 @@ Could not find wargear Haywire Grenades
 Ghoststrike: On any turn in which Irillyth charges a unit that has suffered at least one successful Hit from a weapon with the Ghostlight type, the Spear of Starlight’s Wanelight Glaive profile is changed to Strength +3, and gains the Armourbane (Melee) and Murderous Strike (5+) Special Rules until the end of that player turn.</description>
         </rule>
       </rules>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Dawn of Twilight</comment>
     </selectionEntry>
     <selectionEntry name="Karandras" type="unit" id="3e09-2df2-4b12-8bf1" page="96" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -6820,18 +7127,31 @@ Could not find rule: Dawn of Twilight</comment>
               </constraints>
             </entryLink>
           </entryLinks>
+          <entryLinks>
+            <entryLink name="Isirmathil &amp; Shadowsting" hidden="false" type="selectionEntry" targetId="krn-is-lib-001" id="krn-is-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="krn-is-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="krn-is-cat-003"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Arhra&apos;s Bane" hidden="false" type="selectionEntry" targetId="krn-ab-bund-001" id="krn-ab-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="krn-ab-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="krn-ab-cat-003"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Scorpion&apos;s Bite" hidden="false" type="selectionEntry" targetId="krn-scb-lib-001" id="krn-scb-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="krn-scb-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="krn-scb-cat-003"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <categoryLinks>
             <categoryLink targetId="c6be-7d92-445f-9f41" id="d19e-ea28-4f83-bd79" name="Phoenix Lord" primary="false"/>
             <categoryLink targetId="88bc-c291-44f8-8798" id="311d-5d56-458d-b733" name="Asuryani" primary="false"/>
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="57aa-3b66-4088-b016" name="Unique" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Isirmathil &amp; Shadowsting
-	 Checked under Isirmathil &amp; Shadowsting
-Could not find wargear Arhra’s Bane
-	 Checked under Arhra’s Bane
-Could not find wargear Scorpion’s Bite
-	 Checked under Scorpion’s Bite</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6907,14 +7227,19 @@ Could not find wargear Scorpion’s Bite
               </constraints>
             </entryLink>
           </entryLinks>
+          <entryLinks>
+            <entryLink name="The Maugetar" hidden="false" type="selectionEntry" targetId="mgr-mgt-bund-001" id="mgr-mgt-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="mgr-mgt-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="mgr-mgt-cat-003"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <categoryLinks>
             <categoryLink targetId="c6be-7d92-445f-9f41" id="050c-26b7-4c37-b652" name="Phoenix Lord" primary="false"/>
             <categoryLink targetId="88bc-c291-44f8-8798" id="264d-4955-4ca9-b96d" name="Asuryani" primary="false"/>
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="3ab1-eaae-47c3-b100" name="Unique" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear The Maugetar
-	 Checked under The Maugetar</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6941,8 +7266,6 @@ Could not find wargear The Maugetar
           <description>Maugan Ra may fire The Maugetar twice during the Controlling Player’s Shooting Phase. These Shooting Attacks may be made at different targets.</description>
         </rule>
       </rules>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Whirlwind of Death</comment>
     </selectionEntry>
     <selectionEntry name="Jain Zar" type="unit" id="1f68-59c6-4d76-b682" page="98" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -6989,18 +7312,31 @@ Could not find rule: Whirlwind of Death</comment>
               </constraints>
             </entryLink>
           </entryLinks>
+          <entryLinks>
+            <entryLink name="Terror&apos;s Lament" hidden="false" type="selectionEntry" targetId="jnz-tl-lib-001" id="jnz-tl-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="jnz-tl-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="jnz-tl-cat-003"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Jainas Mor, Silent Death" hidden="false" type="selectionEntry" targetId="jnz-jm-bund-001" id="jnz-jm-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="jnz-jm-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="jnz-jm-cat-003"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Zhai Morenn, Blade of Destruction" hidden="false" type="selectionEntry" targetId="jnz-zm-lib-001" id="jnz-zm-cat-001">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="jnz-zm-cat-002"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="jnz-zm-cat-003"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <categoryLinks>
             <categoryLink targetId="c6be-7d92-445f-9f41" id="0cca-2503-41ac-9a29" name="Phoenix Lord" primary="false"/>
             <categoryLink targetId="88bc-c291-44f8-8798" id="533e-c0a4-4a94-a220" name="Asuryani" primary="false"/>
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="4b30-be73-4717-885b" name="Unique" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Terror’s Lament
-	 Checked under Terror’s Lament
-Could not find wargear Jainas Mor, Silent Death
-	 Checked under Jainas Mor, Silent Death
-Could not find wargear Zhai Morenn, Blade of Destruction
-	 Checked under Zhai Morenn, Blade of Destruction</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -7027,8 +7363,6 @@ Could not find wargear Zhai Morenn, Blade of Destruction
           <description>Before rolling to Hit whilst in a challenge, a model with this Special Rule can choose to nominate one of the Opponent’s model’s melee weapons. Both Jain Zar and the opposing model must then roll a D6 and add their Weapon Skill; the model with the highest result being the Winner. If the opposing model is the Winner, Jain Zar reduces her Attacks Characteristics by -3 for the duration of that Assault phase. If Jain Zar is the Winner, Jain Zar reduces her Attacks Characteristics by -1 for the duration of that Assault phase, whilst the Opposing model counts as no longer being equipped with the nominated melee weapon for the duration of that Assault phase. Any Characteristic Modifiers applied by this Special Rules ignore the normal restrictions found in the Phoenix Lord Unit Type.</description>
         </rule>
       </rules>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Disarming Strike</comment>
     </selectionEntry>
     <selectionEntry name="Webway Gate" type="unit" id="b996-22c3-4113-adfe" page="102" publicationId="a368-64f0-10c7-c49d">
       <categoryLinks>
@@ -7087,6 +7421,190 @@ Could not find profile for Wraithbone Arches in [&apos;Webway Gate&apos;]</comme
       </selectionEntries>
       <comment>!BSC Errors from 20240406-1603
 Could not find profile for Double Holo-Field Sections in [&apos;Holo-Field Defence Line&apos;]</comment>
+    </selectionEntry>
+    <selectionEntry name="Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)" type="upgrade" id="aml-bundle-4c8e-b600">
+      <entryLinks>
+        <entryLink name="Aeldari Missile Launcher - Sunburst" hidden="false" type="selectionEntry" targetId="b889-584d-45c2-9d4a" id="aml-bundle-4c8e-b601">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aml-bundle-4c8e-b602"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aml-bundle-4c8e-b603"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Aeldari Missile Launcher - Starshot" hidden="false" type="selectionEntry" targetId="aa23-3bd9-484e-ae22" id="aml-bundle-4c8e-b604">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aml-bundle-4c8e-b605"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aml-bundle-4c8e-b606"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Aeldari Missile Launcher - Starhawk" hidden="false" type="selectionEntry" targetId="859a-f20a-4027-a801" id="aml-bundle-4c8e-b607">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aml-bundle-4c8e-b608"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aml-bundle-4c8e-b609"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Ghostglaive" type="upgrade" id="gg-bundle-4c8e-b610">
+      <entryLinks>
+        <entryLink name="Ghostglaive - Piercing Blow" hidden="false" type="selectionEntry" targetId="0460-cace-4ad5-b6ec" id="gg-bundle-4c8e-b611">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="gg-bundle-4c8e-b612"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gg-bundle-4c8e-b613"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Ghostglaive - Sweeping Strike" hidden="false" type="selectionEntry" targetId="7560-d04b-4a5c-9403" id="gg-bundle-4c8e-b614">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="gg-bundle-4c8e-b615"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gg-bundle-4c8e-b616"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Deathshroud Cannon" type="upgrade" id="dsc-bundle-4c8e-b620">
+      <entryLinks>
+        <entryLink name="Deathshroud Cannon - Dispersed" hidden="false" type="selectionEntry" targetId="4723-3c9a-4118-88e7" id="dsc-bundle-4c8e-b621">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dsc-bundle-4c8e-b622"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dsc-bundle-4c8e-b623"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Deathshroud Cannon - Focused" hidden="false" type="selectionEntry" targetId="a8b0-3478-40da-b40e" id="dsc-bundle-4c8e-b624">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dsc-bundle-4c8e-b625"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dsc-bundle-4c8e-b626"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Prism Cannon" type="upgrade" id="pc-bundle-4c8e-b630">
+      <entryLinks>
+        <entryLink name="Prism Cannon - Dispersed" hidden="false" type="selectionEntry" targetId="243a-d5c0-44fb-90b4" id="pc-bundle-4c8e-b631">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="pc-bundle-4c8e-b632"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="pc-bundle-4c8e-b633"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Prism Cannon - Focused" hidden="false" type="selectionEntry" targetId="4c27-4108-4d61-8346" id="pc-bundle-4c8e-b634">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="pc-bundle-4c8e-b635"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="pc-bundle-4c8e-b636"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Prism Cannon - Lance" hidden="false" type="selectionEntry" targetId="7e62-a51d-4fc0-9ef9" id="pc-bundle-4c8e-b637">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="pc-bundle-4c8e-b638"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="pc-bundle-4c8e-b639"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Doomweaver" type="upgrade" id="dw-bundle-4c8e-b640">
+      <entryLinks>
+        <entryLink name="Doomweaver - Dispersed" hidden="false" type="selectionEntry" targetId="4f1d-a736-4ed0-b663" id="dw-bundle-4c8e-b641">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dw-bundle-4c8e-b642"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dw-bundle-4c8e-b643"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Doomweaver - Focused" hidden="false" type="selectionEntry" targetId="1891-b505-4c6a-be59" id="dw-bundle-4c8e-b644">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dw-bundle-4c8e-b645"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dw-bundle-4c8e-b646"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Lynx Pulsar" type="upgrade" id="lp-bundle-4c8e-b650">
+      <entryLinks>
+        <entryLink name="Lynx Pulsar - Saturation Fire" hidden="false" type="selectionEntry" targetId="3d8f-e3b7-49f3-968b" id="lp-bundle-4c8e-b651">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="lp-bundle-4c8e-b652"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="lp-bundle-4c8e-b653"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Lynx Pulsar - Salvo Fire" hidden="false" type="selectionEntry" targetId="6c46-d05f-44ae-86f4" id="lp-bundle-4c8e-b654">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="lp-bundle-4c8e-b655"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="lp-bundle-4c8e-b656"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Wraithsword" type="upgrade" id="wrs-bundle-4c8e-b940">
+      <entryLinks>
+        <entryLink name="Wraithsword - Piercing Blow" hidden="false" type="selectionEntry" targetId="e9e1-2b1a-429b-a71b" id="wrs-bundle-4c8e-b941">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="wrs-bundle-4c8e-b942"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="wrs-bundle-4c8e-b943"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Wraithsword - Sweeping Strike" hidden="false" type="selectionEntry" targetId="a456-3246-47bd-99db" id="wrs-bundle-4c8e-b944">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="wrs-bundle-4c8e-b945"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="wrs-bundle-4c8e-b946"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Twin-Linked Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles)" type="upgrade" id="tlaml-bundle-4c8e-b8a0">
+      <entryLinks>
+        <entryLink name="Twin-Linked Aeldari Missile Launcher - Sunburst" hidden="false" type="selectionEntry" targetId="tlaml-sun-4c8e-b870" id="tlaml-bundle-4c8e-b8a1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="tlaml-bundle-4c8e-b8a2"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="tlaml-bundle-4c8e-b8a3"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Twin-Linked Aeldari Missile Launcher - Starshot" hidden="false" type="selectionEntry" targetId="tlaml-sst-4c8e-b880" id="tlaml-bundle-4c8e-b8a4">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="tlaml-bundle-4c8e-b8a5"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="tlaml-bundle-4c8e-b8a6"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Twin-Linked Aeldari Missile Launcher - Starhawk" hidden="false" type="selectionEntry" targetId="tlaml-shk-4c8e-b890" id="tlaml-bundle-4c8e-b8a7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="tlaml-bundle-4c8e-b8a8"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="tlaml-bundle-4c8e-b8a9"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Wraith Glaive and Twin-Linked Gravis Starcannon" type="upgrade" id="pt-wg-4c8e-b740">
+      <entryLinks>
+        <entryLink name="Wraith Glaive" hidden="false" type="selectionEntry" targetId="1537-f096-4f41-a700" id="pt-wg-4c8e-b743">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="pt-wg-4c8e-b744"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="pt-wg-4c8e-b745"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Twin-Linked Gravis Starcannon" hidden="false" type="selectionEntry" targetId="tlgs-4c8e-b710-a6f0" id="pt-wg-4c8e-b746">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="pt-wg-4c8e-b747"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="pt-wg-4c8e-b748"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Reaper Launcher (with Starswarm, Starshot, and Starhawk Missiles)" type="upgrade" id="rml-bundle-4c8e-b030">
+      <entryLinks>
+        <entryLink name="Reaper Missile Launcher - Starswarm" hidden="false" type="selectionEntry" targetId="72ed-f279-4a15-bb70" id="rml-bundle-4c8e-b031">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="rml-bundle-4c8e-b032"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="rml-bundle-4c8e-b033"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Reaper Missile Launcher - Starshot" hidden="false" type="selectionEntry" targetId="0d21-6747-4c00-84c2" id="rml-bundle-4c8e-b034">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="rml-bundle-4c8e-b035"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="rml-bundle-4c8e-b036"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Reaper Missile Launcher - Starhawk" hidden="false" type="selectionEntry" targetId="14a6-3782-4b99-844e" id="rml-bundle-4c8e-b037">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="rml-bundle-4c8e-b038"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="rml-bundle-4c8e-b039"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>

@@ -92,7 +92,10 @@ Once the move is resolved, if the Shooting Attack is no longer valid (due to the
 The selected model may then make a shooting attack with a weapon it is equipped with which has the Ghostlight Special Rule.
 If the weapon has multiple profiles with the Ghostlight Special Rule, you must select one of them to use. If only one of multiple profiles has the Ghostlight Special Rule, only that profile may be used for the combined fire attack.
 In addition, for each two additional models in the unit equipped with a weapon with the Ghostlight Special Rule, you may apply one of the below bonuses to the attack. Note that these bonuses may only be claimed if the friendly models in the unit can see the selected model which is making the shooting attack, and you may select the same bonus multiple times:
-•     Increase the Range of the Profile by 6&quot; •     Increase the Strength of the Profile by +1 (to a maximum of 10) •     Decrease the AP of the Profile by -1 (to a minimum of 1) •     Increase the number of shots by 1 Guardian Artillerists Whether due to ease-of-use or practised familiarity, these Guardians were highly capable with the employment of artillery. These trained individuals knew best how to place each shot from their platforms to deadly effect.
+•     Increase the Range of the Profile by 6&quot; •     Increase the Strength of the Profile by +1 (to a maximum of 10) •     Decrease the AP of the Profile by -1 (to a minimum of 1) •     Increase the number of shots by 1</description>
+    </rule>
+    <rule name="Guardian Artillerists" id="ga10-4c8e-b000" page="68" publicationId="a368-64f0-10c7-c49d">
+      <description>Whether due to ease-of-use or practised familiarity, these Guardians were highly capable with the employment of artillery. These trained individuals knew best how to place each shot from their platforms to deadly effect.
 A Vaul’s Wrath Support Battery must have one Guardian Crew per Support Weapon in order for all Support Weapons to make Shooting Attacks in the Shooting phase. If, at the start of any of the controlling player’s Shooting phases, the Vaul’s Wrath Support Battery contains fewer Guardian Crew than Support Weapons, then only a number of Support Weapons equal to the number of Guardian Crew may make Shooting Attacks in that Shooting phase. In addition, as long as there are at least as many Guardian Crew in the unit as there are Support Weapons, then the unit cannot be Pinned, automatically passing any Pinning test it is called upon to take without any dice being rolled (this benefit is immediately lost once the number of Guardian Crew is reduced to less than the number of Support Weapons in the unit).</description>
     </rule>
     <rule name="Guardian Officers" id="8597-df2a-46d0-a622" page="143" publicationId="a368-64f0-10c7-c49d">
@@ -111,6 +114,9 @@ Once assigned to a unit, the Guardian Officer or Skyrunner Officer is considered
     <rule name="Herald of Victory" id="1b7b-efab-433e-994c" page="144" publicationId="a368-64f0-10c7-c49d">
       <description>A unit which contains at least one model with this Special Rule counts as always rolling a hit on the scatter die when performing a Deep Strike Assault.</description>
     </rule>
+    <rule name="Holo-Fields" id="hf10-ru10-4c8e-b4b0" page="160" publicationId="a368-64f0-10c7-c49d">
+      <description>A model with this Special Rule has a 5+ Invulnerable Save against Shooting Attacks, unless it is Immobilised.</description>
+    </rule>
     <rule name="Holo-Emitter" id="d013-d2d7-41d5-a347" page="144" publicationId="a368-64f0-10c7-c49d">
       <description>A model with this Special Rule is a Barricade and provides a 5+ Cover Save for models obscured by it. In addition, any Wounds inflicted by attacks with the Blast special rule targeting a model that claims a Cover Save due to a model with this Special Rule must be re-rolled.</description>
     </rule>
@@ -128,8 +134,13 @@ In addition, a unit with this Special Rule suffers a -1 penalty to their Leaders
       <description>Whenever a unit composed entirely of models armed with weapons with this Special Rule (and that includes more than one model) is elected to make a shooting attack in the Controlling Player’s Shooting Phase, the unit may declare it is making a Linked Fire attack rather than attacking normally. If you do so, select one model in the unit. No other models in the unit may make shooting attacks with a weapon with this Special Rule during the Controlling Player’s Shooting Phase.
 If the weapon has multiple profiles with the Linked Fire Special Rule, you must select one of them to use. If only one of multiple profiles has the Linked Fire Special Rule, only that profile may be used for the Linked Fire attack.
 In addition, for each additional model in the unit equipped with a weapon with the Linked Fire Special Rule, you may apply one of the below bonuses to the attack. Note that these bonuses may only be claimed if the friendly models in the unit can see the selected model which is making the Shooting Attack, and you may select the same bonus multiple times:
-•     Increase the Strength of the Profile by +2 •     Increase rolls made on the Vehicle Damage table by +1 •     Increase the number of shots by +1 •     Give the Shooting Attack the Brutal (2) Special Rule (or increase an existing Brutal (X) value by +2) Mark of Kurnous To those who followed the path of the hunter, there was no greater thrill than the pursuit of a marked target.
-At the start of the controlling player’s Shooting Phase, a unit with this Special Rule may select an enemy unit within 12&quot; of any model in the unit.
+- Increase the Strength of the Profile by +2
+- Increase rolls made on the Vehicle Damage table by +1
+- Increase the number of shots by +1
+- Give the Shooting Attack the Brutal (2) Special Rule (or increase an existing Brutal (X) value by +2)</description>
+    </rule>
+    <rule name="Mark of Kurnous" id="mk10-4c8e-b720-a7f0" page="144" publicationId="a368-64f0-10c7-c49d">
+      <description>At the start of the controlling player’s Shooting Phase, a unit with this Special Rule may select an enemy unit within 12&quot; of any model in the unit.
 The unit making the Shooting Attack loses any variant of the Firing Protocols (X) Special Rule it possesses, instead gaining the Ignores Cover Special Rule for all Shooting Attacks made against the selected unit, until the end of the Controlling Player’s Shooting Phase.</description>
     </rule>
     <rule name="Monofilament" id="9b01-d26b-4e0d-b162" page="145" publicationId="a368-64f0-10c7-c49d">
@@ -240,6 +251,9 @@ If there are any units assigned to a Webway Strike, but no Wraithbone Arch remai
     </rule>
     <rule name="Wraith Conclave" id="1df7-5eb2-4953-819e" page="148" publicationId="a368-64f0-10c7-c49d">
       <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves), all models with this Special Rule in a unit must be placed within unit coherency, but afterwards operate independently and are not treated as a unit. Once a unit with this Special Rule has separated, each model counts as its own unit for the purposes of Victory Points, Units Destroyed, and similar rules.</description>
+    </rule>
+    <rule name="Wraithbone Core" id="wbc10-4c8e-b070" page="149" publicationId="a368-64f0-10c7-c49d">
+      <description>A model with this Special Rule ignores all Psychic Powers and Cybertheurgic Rites and Attacks made by Psychic and Cybertheurgic Weapons. In addition, a model with this special rule ignores the effects of Haywire and Disruption(X) special rules. In all cases, weapons which benefit from these special rules must attempt to damage a model with this special rule normally using the attack&apos;s strength value. Furthermore, when a model with this special rule is destroyed, the damage caused by its Catastrophic Damage is altered to resolve at AP2.</description>
     </rule>
     <rule name="Airburst Munitions" id="ecd5-9d65-4dd8-9096" page="78" publicationId="3970-79bb-bdc6-9599">
       <description>A weapon with this Special Rule may only target models with the Flyer or Antigrav Sub-types, or which have activated any form or pattern of Jump Pack, Jet Pack, or Wings in the Opposing Player’s Previous Game Turn. A Shooting attack against such a target can never hit any target that is not one of the types specified.
@@ -2497,6 +2511,35 @@ Could not find rule: Apocalyptic Mega-Blast</comment>
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry name="Twin-Linked Revenant Pulsar" type="upgrade" id="tlrp-4c8e-b700-a5f0">
+      <infoLinks>
+        <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="tlrp-4c8e-b701-a5f1">
+          <modifiers>
+            <modifier type="set" field="name" value="Blast (3&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Exoshock (X)" hidden="false" type="rule" targetId="69ca-318a-b47a-7a3c" id="tlrp-4c8e-b702-a5f2">
+          <modifiers>
+            <modifier type="set" field="name" value="Exoshock (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Murderous Strike (X)" hidden="false" type="rule" targetId="93b9-1454-0e7c-42ae" id="tlrp-4c8e-b703-a5f3">
+          <modifiers>
+            <modifier type="set" field="name" value="Murderous Strike (4+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="Twin-Linked Revenant Pulsar" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="tlrp-4c8e-b704-a5f4" page="152" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">72&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">12</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">1</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Destroyer 2, Blast (3&quot;), Exoshock (5+), Murderous Strike (4+), Twin-Linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
     <selectionEntry name="Revenant Pulsar" type="upgrade" id="8fd1-b04f-49ef-b31e">
       <infoLinks>
         <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="5681-5795-40ac-9e21">
@@ -2560,6 +2603,25 @@ Could not find rule: Apocalyptic Mega-Blast</comment>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">8</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">2</characteristic>
             <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 2, Exoshock (5+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Twin-Linked Pulse Laser" type="upgrade" id="tlpl-4c8e-b520-a4f0">
+      <infoLinks>
+        <infoLink name="Exoshock (X)" hidden="false" type="rule" targetId="69ca-318a-b47a-7a3c" id="tlpl-4c8e-b521-a4f1">
+          <modifiers>
+            <modifier type="set" field="name" value="Exoshock (5+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="Twin-Linked Pulse Laser" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="tlpl-4c8e-b522-a4f2" page="152" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">48&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">8</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">2</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 2, Exoshock (5+), Twin-Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2774,6 +2836,53 @@ Could not find rule: Apocalyptic Mega-Blast</comment>
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry name="Twin-Linked Aeldari Missile Launcher - Sunburst" type="upgrade" id="tlaml-sun-4c8e-b870" page="153" publicationId="a368-64f0-10c7-c49d">
+      <infoLinks>
+        <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="tlaml-sun-4c8e-b871">
+          <modifiers>
+            <modifier type="set" field="name" value="Blast (3&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Blind" hidden="false" type="rule" targetId="d836-747d-07d6-2b63" id="tlaml-sun-4c8e-b872"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Twin-Linked Aeldari Missile Launcher - Sunburst" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="tlaml-sun-4c8e-b873" page="153" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">48&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">4</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">4</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 1, Blast (3&quot;), Blind, Twin-Linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Twin-Linked Aeldari Missile Launcher - Starshot" type="upgrade" id="tlaml-sst-4c8e-b880" page="153" publicationId="a368-64f0-10c7-c49d">
+      <profiles>
+        <profile name="Twin-Linked Aeldari Missile Launcher - Starshot" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="tlaml-sst-4c8e-b881" page="153" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">48&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">8</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 1, Twin-Linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Twin-Linked Aeldari Missile Launcher - Starhawk" type="upgrade" id="tlaml-shk-4c8e-b890" page="153" publicationId="a368-64f0-10c7-c49d">
+      <infoLinks>
+        <infoLink name="Skyfire" hidden="false" type="rule" targetId="f2bf-5daa-9f93-0b01" id="tlaml-shk-4c8e-b891"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Twin-Linked Aeldari Missile Launcher - Starhawk" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="tlaml-shk-4c8e-b892" page="153" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">48&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">7</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 1, Skyfire, Twin-Linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
     <selectionEntry name="Cloudburst Missile Launcher" type="upgrade" id="0913-3c93-4c58-9b4e">
       <infoLinks>
         <infoLink name="Skyfire" hidden="false" type="rule" targetId="f2bf-5daa-9f93-0b01" id="0ff5-4055-4e36-a8a5"/>
@@ -2822,6 +2931,26 @@ Could not find rule: Apocalyptic Mega-Blast</comment>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">6</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
             <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 3, Blast (3&quot;), Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Twin-Linked Phoenix Missile Launcher" type="upgrade" id="tlp1-4c8e-b510-a3f0">
+      <infoLinks>
+        <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="tlp1-4c8e-b511-a3f1">
+          <modifiers>
+            <modifier type="set" field="name" value="Blast (3&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Ignores Cover" hidden="false" type="rule" targetId="fdb5-59e2-c446-1cbc" id="tlp1-4c8e-b512-a3f2"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Twin-Linked Phoenix Missile Launcher" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="tlp1-4c8e-b513-a3f3" page="153" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">48&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">6</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 3, Blast (3&quot;), Ignores Cover, Twin-Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3112,6 +3241,25 @@ Could not find rule: Apocalyptic Mega-Blast</comment>
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry name="Twin-Linked Gravis Starcannon" type="upgrade" id="tlgs-4c8e-b710-a6f0">
+      <infoLinks>
+        <infoLink name="Breaching (X)" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c" id="tlgs-4c8e-b711-a6f1">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (4+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="Twin-Linked Gravis Starcannon" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="tlgs-4c8e-b712-a6f2" page="153" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">36&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">6</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 6, Breaching (4+), Twin-Linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
     <selectionEntry name="Suncannon" type="upgrade" id="e537-287e-4362-be2f">
       <infoLinks>
         <infoLink name="Blast" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8" id="eace-039d-4030-8deb">
@@ -3290,6 +3438,25 @@ Could not find rule: Apocalyptic Mega-Blast</comment>
             <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">4</characteristic>
             <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">5</characteristic>
             <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 2, Breaching (6+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Twin-Linked Shuriken Catapult" type="upgrade" id="tlsc-4c8e-b860-a8f0" page="153" publicationId="a368-64f0-10c7-c49d">
+      <infoLinks>
+        <infoLink name="Breaching (X)" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c" id="tlsc-4c8e-b861-a8f1">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (6+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="Twin-Linked Shuriken Catapult" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="tlsc-4c8e-b862-a8f2" page="153" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">18&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">4</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">5</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 2, Breaching (6+), Twin-Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4525,6 +4692,37 @@ Could not find rule: One Use</comment>
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry name="Armour of the Last Runes" type="upgrade" id="5f1a-9372-4c8e-b014">
+      <profiles>
+        <profile name="Armour of the Last Runes" typeName="Wargear Item" hidden="false" typeId="2a1f-7837-f0ef-be44" id="3b7c-f814-4d6a-9e02" page="32" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="347e-ee4a-764f-6be3" name="Description">The Armour of the Last Runes confers a 3+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Staff of Ulthamar" type="upgrade" id="2c3d-7e6f-4a91-c5b8">
+      <infoLinks>
+        <infoLink name="Soul Tear" hidden="false" type="rule" targetId="01be-8056-4138-a11a" id="f8a2-b316-4c5e-9d74"/>
+        <infoLink name="Force" hidden="false" type="rule" targetId="f39e-4c3b-38e0-0050" id="a3e1-d724-4b9f-8c56"/>
+        <infoLink name="Reach (X)" hidden="false" type="rule" targetId="19bf-62a2-5737-890b" id="c6d3-e821-4f97-b045">
+          <modifiers>
+            <modifier type="set" field="name" value="Reach (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Master-crafted" hidden="false" type="rule" targetId="6de0-55b0-bf21-48b9" id="d5f7-a493-4e82-c371"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Staff of Ulthamar" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="7e91-d4c5-4b3a-8f62" page="32" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">+1</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">2</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Soul Tear, Force, Reach (1), Master-crafted</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
     <selectionEntry name="Aeldari Shields" type="upgrade" id="9a95-f102-4630-a6fd">
       <profiles>
         <profile name="Aeldari Shields" typeName="Wargear Item" hidden="false" typeId="2a1f-7837-f0ef-be44" id="3ddb-dfab-4bb8-bbac" page="306" publicationId="892-6266-f55f-1b9d">
@@ -4620,6 +4818,15 @@ Could not find rule: One Use</comment>
         <profile name="Wraithform Shield" typeName="Wargear Item" hidden="false" typeId="2a1f-7837-f0ef-be44" id="75e7-8a0b-4c59-988b" page="160" publicationId="a368-64f0-10c7-c49d">
           <characteristics>
             <characteristic typeId="347e-ee4a-764f-6be3" name="Description">A Wraithform Shield confers a 6+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Wraithshield" type="upgrade" id="ws10-4c8e-b080">
+      <profiles>
+        <profile name="Wraithshield" typeName="Wargear Item" hidden="false" typeId="2a1f-7837-f0ef-be44" id="ws10-4c8e-b081" page="160" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="347e-ee4a-764f-6be3" name="Description">A Wraithshield confers a 4+ Invulnerable Save, and any model with a Wraithshield and a Wounds Characteristic that suffers an unsaved Wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it. In addition, when a model with a Wraithshield loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6&quot; suffer an automatic Hit at Str 8, AP -.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11304,6 +11511,470 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
           </constraints>
         </entryLink>
       </entryLinks>
+    </selectionEntry>
+    <!-- Avatar of Khaine wargear -->
+    <selectionEntry name="Molten Body" type="upgrade" id="avk-mb-lib-001" hidden="false">
+      <profiles>
+        <profile name="Molten Body" typeName="Wargear Item" hidden="false" typeId="2a1f-7837-f0ef-be44" id="avk-mb-lib-002" page="90" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="347e-ee4a-764f-6be3" name="Description">The Molten Body of an Avatar of Khaine flows like wax to seal even the most grievous wounds. A Molten Body provides a 3+ Invulnerable Save. Weapons of the Flame, Melta, and Volkite types can never cause Wounds to a model with a Molten Body, and any allocated to a model with a Molten Body are immediately discarded.
+
+In addition, when a model with a Molten Body and a Wounds Characteristic loses its last Wound, but before it is removed as a casualty, all models both friendly and enemy within D6+6&quot; suffer an automatic Hit at Str 8, AP -.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="The Wailing Doom (Ranged)" type="upgrade" id="avk-wdr-lib-001" hidden="false">
+      <profiles>
+        <profile name="The Wailing Doom (Ranged)" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="avk-wdr-lib-002" page="90" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">12&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">9</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">1</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 1, Armourbane (Ranged), Exoshock (5+), Heavy Beam</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="The Wailing Doom - Scything Slash" type="upgrade" id="avk-wds-lib-001" hidden="false">
+      <profiles>
+        <profile name="The Wailing Doom - Scything Slash" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="avk-wds-lib-002" page="90" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">9</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Reaping Blow (3), Breaching (6+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="The Wailing Doom - Speartip Strike" type="upgrade" id="avk-wdsp-lib-001" hidden="false">
+      <profiles>
+        <profile name="The Wailing Doom - Speartip Strike" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="avk-wdsp-lib-002" page="90" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">9</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">1</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Armourbane (Melee), Exoshock (5+), Brutal (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="The Wailing Doom" type="upgrade" id="avk-wd-bund-001" hidden="false">
+      <entryLinks>
+        <entryLink name="The Wailing Doom (Ranged)" hidden="false" type="selectionEntry" targetId="avk-wdr-lib-001" id="avk-wd-bund-002">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="avk-wd-bund-003"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="avk-wd-bund-004"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="The Wailing Doom - Scything Slash" hidden="false" type="selectionEntry" targetId="avk-wds-lib-001" id="avk-wd-bund-005">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="avk-wd-bund-006"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="avk-wd-bund-007"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="The Wailing Doom - Speartip Strike" hidden="false" type="selectionEntry" targetId="avk-wdsp-lib-001" id="avk-wd-bund-008">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="avk-wd-bund-009"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="avk-wd-bund-010"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <!-- Asurmen wargear -->
+    <selectionEntry name="The Bloody Twins" type="upgrade" id="asm-bt-lib-001" hidden="false">
+      <profiles>
+        <profile name="The Bloody Twins" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="asm-bt-lib-002" page="91" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">18&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">5</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">4</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 4, Twin-Linked, Rending (5+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="The Sword of Asur" type="upgrade" id="asm-soa-lib-001" hidden="false">
+      <profiles>
+        <profile name="The Sword of Asur" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="asm-soa-lib-002" page="91" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">+1</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">2</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Master-Crafted, Brutal (2), Murderous Strike (4+), Sanctic</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <!-- Baharroth wargear -->
+    <selectionEntry name="The Shining Blade" type="upgrade" id="bhr-sb-lib-001" hidden="false">
+      <profiles>
+        <profile name="The Shining Blade" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="bhr-sb-lib-002" page="92" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">User</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">2</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Blind, Master-Crafted, Shred, Murderous Strike (5+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Fury of the Tempest" type="upgrade" id="bhr-ft-lib-001" hidden="false">
+      <profiles>
+        <profile name="Fury of the Tempest" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="bhr-ft-lib-002" page="92" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">24&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">6</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 4, Rending (5+), Pinning, Shell Shock (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <!-- Drastanta wargear -->
+    <selectionEntry name="The Crown of the Seventh Sky" type="upgrade" id="dst-cs-lib-001" hidden="false">
+      <profiles>
+        <profile name="The Crown of the Seventh Sky" typeName="Wargear Item" hidden="false" typeId="2a1f-7837-f0ef-be44" id="dst-cs-lib-002" page="93" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="347e-ee4a-764f-6be3" name="Description">The Crown of the Seventh Sky allows Drastanta and a unit they have joined to make a single reaction in the Movement Phase without expending a point of the Reactive Player&apos;s Reaction Allotment.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="The Celestial Lance - Pierce the Heavens" type="upgrade" id="dst-pth-lib-001" hidden="false">
+      <profiles>
+        <profile name="The Celestial Lance - Pierce the Heavens" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="dst-pth-lib-002" page="93" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">12&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">8</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">2</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 2, Lance, Blind</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="The Celestial Lance - Tear the Earth" type="upgrade" id="dst-tte-lib-001" hidden="false">
+      <profiles>
+        <profile name="The Celestial Lance - Tear the Earth" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="dst-tte-lib-002" page="93" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">+5</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">1</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Lance, Reach (1), Soul-Shatter</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="The Celestial Lance" type="upgrade" id="dst-cl-bund-001" hidden="false">
+      <entryLinks>
+        <entryLink name="The Celestial Lance - Pierce the Heavens" hidden="false" type="selectionEntry" targetId="dst-pth-lib-001" id="dst-cl-bund-002">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dst-cl-bund-003"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dst-cl-bund-004"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="The Celestial Lance - Tear the Earth" hidden="false" type="selectionEntry" targetId="dst-tte-lib-001" id="dst-cl-bund-005">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dst-cl-bund-006"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dst-cl-bund-007"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Khaine&apos;s Destrier" type="upgrade" id="dst-kd-lib-001" hidden="false">
+      <profiles>
+        <profile name="Khaine&apos;s Destrier" typeName="Wargear Item" hidden="false" typeId="2a1f-7837-f0ef-be44" id="dst-kd-lib-002" page="93" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="347e-ee4a-764f-6be3" name="Description">Khaine&apos;s Destrier is a jetbike of unique and exquisite make. Drastanta gains the following benefits from Khaine&apos;s Destrier:
+&#x2022; Two Master-Crafted Shuriken Cannons
+&#x2022; Drastanta may choose to move up to their unmodified Initiative Characteristic at the start of the Controlling Player&apos;s Charge Sub-Phase. If they choose to do, they may not declare a Charge.
+&#x2022; Drastanta may join units that include models with the Cavalry Unit Type despite the usual restrictions, and any rules that target the Cavalry Unit Type are considered to affect Drastanta as if they had that Unit Type.
+&#x2022; Drastanta also counts as having the Cavalry Unit Type in addition to their other Unit Types.
+&#x2022; The Firing Protocols (3), Hammer of Wrath (2), and Deep Strike Special Rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <!-- Fuegan wargear -->
+    <selectionEntry name="Searsong - Searing Lance" type="upgrade" id="fgn-sl-lib-001" hidden="false">
+      <profiles>
+        <profile name="Searsong - Searing Lance" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="fgn-sl-lib-002" page="94" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">18&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">9</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">1</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 1, Armourbane (Ranged), Exoshock (5+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Searsong - Burning Beam" type="upgrade" id="fgn-bb-lib-001" hidden="false">
+      <profiles>
+        <profile name="Searsong - Burning Beam" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="fgn-bb-lib-002" page="94" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">9&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">8</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">2</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 1, Armourbane (Ranged), Heavy Beam</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Searsong" type="upgrade" id="fgn-ss-bund-001" hidden="false">
+      <entryLinks>
+        <entryLink name="Searsong - Searing Lance" hidden="false" type="selectionEntry" targetId="fgn-sl-lib-001" id="fgn-ss-bund-002">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fgn-ss-bund-003"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fgn-ss-bund-004"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Searsong - Burning Beam" hidden="false" type="selectionEntry" targetId="fgn-bb-lib-001" id="fgn-ss-bund-005">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fgn-ss-bund-006"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fgn-ss-bund-007"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="The Fire Axe" type="upgrade" id="fgn-fa-lib-001" hidden="false">
+      <profiles>
+        <profile name="The Fire Axe" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="fgn-fa-lib-002" page="94" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">+1</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">1</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Armourbane (Melee), Master-Crafted</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <!-- Irillyth wargear -->
+    <selectionEntry name="Spear of Starlight - Solar Beam" type="upgrade" id="irl-solb-lib-001" hidden="false">
+      <profiles>
+        <profile name="Spear of Starlight - Solar Beam" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="irl-solb-lib-002" page="95" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">24&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">8</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">2</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 3, Lance, Ghostlight</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Spear of Starlight - Wanelight Glaive" type="upgrade" id="irl-wg-lib-001" hidden="false">
+      <profiles>
+        <profile name="Spear of Starlight - Wanelight Glaive" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="irl-wg-lib-002" page="95" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">+1</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">2</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Reach (1), Master-Crafted, Ghoststrike</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Spear of Starlight" type="upgrade" id="irl-sol-bund-001" hidden="false">
+      <entryLinks>
+        <entryLink name="Spear of Starlight - Solar Beam" hidden="false" type="selectionEntry" targetId="irl-solb-lib-001" id="irl-sol-bund-002">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="irl-sol-bund-003"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="irl-sol-bund-004"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Spear of Starlight - Wanelight Glaive" hidden="false" type="selectionEntry" targetId="irl-wg-lib-001" id="irl-sol-bund-005">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="irl-sol-bund-006"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="irl-sol-bund-007"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <!-- Karandras wargear -->
+    <selectionEntry name="Isirmathil &amp; Shadowsting" type="upgrade" id="krn-is-lib-001" hidden="false">
+      <profiles>
+        <profile name="Isirmathil &amp; Shadowsting" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="krn-is-lib-002" page="96" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">+2</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Shred, Rending (5+), Two-Handed, Murderous Strike (6+), Paired Weapons</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Arhra&apos;s Bane - Crushing Blow" type="upgrade" id="krn-ab-cb-lib-001" hidden="false">
+      <profiles>
+        <profile name="Arhra&apos;s Bane - Crushing Blow" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="krn-ab-cb-lib-002" page="96" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">x2</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">2</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Murderous Strike (5+), Brutal (2), Unwieldy</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Arhra&apos;s Bane - Shuriken Volley" type="upgrade" id="krn-ab-sv-lib-001" hidden="false">
+      <profiles>
+        <profile name="Arhra&apos;s Bane - Shuriken Volley" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="krn-ab-sv-lib-002" page="96" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">12&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">5</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">4</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 3, Breaching (5+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Arhra&apos;s Bane" type="upgrade" id="krn-ab-bund-001" hidden="false">
+      <entryLinks>
+        <entryLink name="Arhra&apos;s Bane - Crushing Blow" hidden="false" type="selectionEntry" targetId="krn-ab-cb-lib-001" id="krn-ab-bund-002">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="krn-ab-bund-003"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="krn-ab-bund-004"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Arhra&apos;s Bane - Shuriken Volley" hidden="false" type="selectionEntry" targetId="krn-ab-sv-lib-001" id="krn-ab-bund-005">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="krn-ab-bund-006"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="krn-ab-bund-007"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Scorpion&apos;s Bite" type="upgrade" id="krn-scb-lib-001" hidden="false">
+      <profiles>
+        <profile name="Scorpion&apos;s Bite" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="krn-scb-lib-002" page="96" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">6</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Specialist Weapon, Breaching (5+), Scorpion&apos;s Sting (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <!-- Maugan Ra wargear -->
+    <selectionEntry name="The Maugetar - Shrieker Strike" type="upgrade" id="mgr-mgs-lib-001" hidden="false">
+      <profiles>
+        <profile name="The Maugetar - Shrieker Strike" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="mgr-mgs-lib-002" page="97" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">36&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">5</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">5</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 1, Rending (5+), Poisoned (2+), Bio-Cataclysm, Master-Crafted</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="The Maugetar - Shuriken Storm" type="upgrade" id="mgr-mgss-lib-001" hidden="false">
+      <profiles>
+        <profile name="The Maugetar - Shuriken Storm" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="mgr-mgss-lib-002" page="97" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">36&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">6</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 5, Rending (4+), Pinning, Master-Crafted</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="The Maugetar - Reaping Blade" type="upgrade" id="mgr-mgrb-lib-001" hidden="false">
+      <profiles>
+        <profile name="The Maugetar - Reaping Blade" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="mgr-mgrb-lib-002" page="97" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">+2</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">2</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Master-Crafted, Murderous Strike (5+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="The Maugetar" type="upgrade" id="mgr-mgt-bund-001" hidden="false">
+      <entryLinks>
+        <entryLink name="The Maugetar - Shrieker Strike" hidden="false" type="selectionEntry" targetId="mgr-mgs-lib-001" id="mgr-mgt-bund-002">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="mgr-mgt-bund-003"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="mgr-mgt-bund-004"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="The Maugetar - Shuriken Storm" hidden="false" type="selectionEntry" targetId="mgr-mgss-lib-001" id="mgr-mgt-bund-005">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="mgr-mgt-bund-006"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="mgr-mgt-bund-007"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="The Maugetar - Reaping Blade" hidden="false" type="selectionEntry" targetId="mgr-mgrb-lib-001" id="mgr-mgt-bund-008">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="mgr-mgt-bund-009"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="mgr-mgt-bund-010"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <!-- Jain Zar wargear -->
+    <selectionEntry name="Terror&apos;s Lament" type="upgrade" id="jnz-tl-lib-001" hidden="false">
+      <profiles>
+        <profile name="Terror&apos;s Lament" typeName="Wargear Item" hidden="false" typeId="2a1f-7837-f0ef-be44" id="jnz-tl-lib-002" page="98" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="347e-ee4a-764f-6be3" name="Description">During the Assault phase, the Reactive player may not make Reactions targeting a unit that contains at least one model equipped with Terror&apos;s Lament. Furthermore, whilst an enemy is in base contact with a model equipped with Terror&apos;s Lament, its Attacks and Initiative Characteristics are reduced by 1, to a minimum of 1. This wargear&apos;s effect does not activate if the unit equipped with it makes a Disordered Charge.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Jainas Mor, Silent Death - Spiraling Throw" type="upgrade" id="jnz-jmst-lib-001" hidden="false">
+      <profiles>
+        <profile name="Jainas Mor, Silent Death - Spiraling Throw" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="jnz-jmst-lib-002" page="98" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">12&quot;</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">4</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Assault 4, Master-Crafted, Shred, Breaching (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Jainas Mor, Silent Death - Reversed Grip" type="upgrade" id="jnz-jmrg-lib-001" hidden="false">
+      <profiles>
+        <profile name="Jainas Mor, Silent Death - Reversed Grip" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="jnz-jmrg-lib-002" page="98" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">User</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">3</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Master-Crafted, Rampage (2), Shred, Breaching (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Jainas Mor, Silent Death" type="upgrade" id="jnz-jm-bund-001" hidden="false">
+      <entryLinks>
+        <entryLink name="Jainas Mor, Silent Death - Spiraling Throw" hidden="false" type="selectionEntry" targetId="jnz-jmst-lib-001" id="jnz-jm-bund-002">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="jnz-jm-bund-003"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="jnz-jm-bund-004"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Jainas Mor, Silent Death - Reversed Grip" hidden="false" type="selectionEntry" targetId="jnz-jmrg-lib-001" id="jnz-jm-bund-005">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="jnz-jm-bund-006"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="jnz-jm-bund-007"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Zhai Morenn, Blade of Destruction" type="upgrade" id="jnz-zm-lib-001" hidden="false">
+      <profiles>
+        <profile name="Zhai Morenn, Blade of Destruction" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="jnz-zm-lib-002" page="98" publicationId="a368-64f0-10c7-c49d">
+          <characteristics>
+            <characteristic typeId="95ba-cda7-b831-6066" name="Range">-</characteristic>
+            <characteristic typeId="24d9-b8e1-a355-2458" name="Str">+2</characteristic>
+            <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">2</characteristic>
+            <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Melee, Master-Crafted, Rending (4+), Murderous Strike (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
