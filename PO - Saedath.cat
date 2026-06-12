@@ -5,8 +5,8 @@
       <categoryLinks>
         <categoryLink id="b7b4-6354-f75e-449d" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a39-4a79-1f58-41bc" type="min"/>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3498-b64f-35a6-4204" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a39-4a79-1f58-41bc" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3498-b64f-35a6-4204" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="134a-b225-425f-4583" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
@@ -49,8 +49,8 @@
       <categoryLinks>
         <categoryLink id="f00b-2376-fb6a-4b24" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7340-e7f8-95d2-4b29" type="min"/>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c5f6-eff0-6ee2-4a7b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7340-e7f8-95d2-4b29" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c5f6-eff0-6ee2-4a7b" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="9a16-ff53-c8d8-4fc8" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
@@ -81,8 +81,8 @@
       <categoryLinks>
         <categoryLink id="839e-2d41-793e-4d8e" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="27f5-2633-6888-4750" type="min"/>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c40f-6a45-4b78-4dde" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="27f5-2633-6888-4750" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c40f-6a45-4b78-4dde" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="2a66-b21e-3c4d-42e1" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
@@ -125,8 +125,8 @@
       <categoryLinks>
         <categoryLink id="c8b6-067b-3f8c-403a" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="78cf-9148-9cf7-476a" type="min"/>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a39-5907-0c40-4fb7" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="78cf-9148-9cf7-476a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a39-5907-0c40-4fb7" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="f8a1-317a-cea2-4e0c" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
@@ -169,8 +169,8 @@
       <categoryLinks>
         <categoryLink id="cbcb-71ee-0266-47b6" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb33-976c-3a6f-48dd" type="min"/>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf3e-4655-7313-49e5" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb33-976c-3a6f-48dd" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf3e-4655-7313-49e5" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="532a-08d6-f416-4db4" name="Expanded Army Lists" hidden="false" targetId="e8ed-ca49-ad6d-5688" primary="false"/>
