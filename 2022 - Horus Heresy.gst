@@ -2758,6 +2758,7 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
               </modifiers>
             </entryLink>
             <entryLink id="ca61-ace9-f76b-16c5" name="Beholden to None" hidden="true" collective="false" import="true" targetId="956a-36dc-217e-63b1" type="selectionEntry"/>
+            <entryLink id="8a2c-1f4e-3d97-6b50" name="Xenos" hidden="false" collective="false" import="true" targetId="f3a1-7c2e-9b4d-5e80" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -11554,6 +11555,12 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
       <constraints>
         <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4453-fb97-4d88-89b9" type="min"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1816-c5f0-8654-b8b5" type="max"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="f3a1-7c2e-9b4d-5e80" name="Xenos" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c4f-1a83-d05e-79b2" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e21-5d6c-8a4f-0317" type="max"/>
       </constraints>
     </selectionEntry>
     <selectionEntry id="6289-a468-cde5-c26b" name="Warp Torrent" hidden="false" collective="false" import="true" type="upgrade">
