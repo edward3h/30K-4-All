@@ -215,7 +215,15 @@
     <entryLink id="52d0-8f61-bd02-4219" name="Troupe Master" hidden="false" collective="false" import="true" targetId="f0cf-4f35-42db-b967" type="selectionEntry"/>
     <entryLink id="5c36-c60c-f828-42d1" name="Shadowseer" hidden="false" collective="false" import="true" targetId="b139-833d-4e60-bf19" type="selectionEntry"/>
     <entryLink id="b7d3-2961-e69a-4ed5" name="Death Jester" hidden="false" collective="false" import="true" targetId="e26c-73c8-46d2-a456" type="selectionEntry"/>
-    <entryLink id="6de6-aad6-d3dc-429b" name="Arebennian" hidden="false" collective="false" import="true" targetId="9e18-8453-4172-84ed" type="selectionEntry"/>
+    <entryLink id="6de6-aad6-d3dc-429b" name="Arebennian" hidden="false" collective="false" import="true" targetId="9e18-8453-4172-84ed" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="187e-0543-ba0f-4073" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
     <entryLink id="9cc4-f149-8cb4-4ec9" name="Troupe" hidden="false" collective="false" import="true" targetId="3d96-f4c2-4c4c-a467" type="selectionEntry"/>
     <entryLink id="debe-c3e1-dd7d-4e14" name="Starweaver" hidden="false" collective="false" import="true" targetId="5698-f326-4032-b58d" type="selectionEntry"/>
     <entryLink id="621a-5d69-d1e1-43ee" name="Skyweavers" hidden="false" collective="false" import="true" targetId="be40-55f4-4220-963c" type="selectionEntry"/>
